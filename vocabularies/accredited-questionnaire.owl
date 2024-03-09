@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#"
-     xml:base="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl"
+<rdf:RDF xmlns="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabulary/accredited-questionnaire.owl#"
+     xml:base="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabulary/accredited-questionnaire.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -21,9 +21,11 @@
     <owl:Ontology rdf:about="http://semanticscience.org/ontology/sio/v1.51/sio-release.owl">
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio/v1.51/sio-release.owl"/>
         <dc:creator>Elizabeth Vroom</dc:creator>
+        <dc:creator>Imelda de Groot</dc:creator>
         <dc:creator>Mark D Wilkinson</dc:creator>
         <dc:creator>Merel Jansen</dc:creator>
         <dc:creator>Nawel Lalout</dc:creator>
+        <dc:creator>Suzi-Ann Bakker</dc:creator>
         <dc:format>application/rdf+xml</dc:format>
         <dc:title>An ontology for the Accredited Duchenne Centers Questionnaires and Interviews</dc:title>
         <doap:Version>1.0</doap:Version>
@@ -88,6 +90,18 @@
     
 
 
+    <!-- urn:local:answerorder -->
+
+    <owl:AnnotationProperty rdf:about="urn:local:answerorder"/>
+    
+
+
+    <!-- urn:local:associatedquestion -->
+
+    <owl:AnnotationProperty rdf:about="urn:local:associatedquestion"/>
+    
+
+
     <!-- urn:local:questionorder -->
 
     <owl:AnnotationProperty rdf:about="urn:local:questionorder"/>
@@ -108,6 +122,2099 @@
     <!-- http://semanticscience.org/resource/SIO_000171 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000171"/>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-1-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-1-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-1"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Yes</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-1-1</dc:identifier>
+        <dc:title xml:lang="en">Yes</dc:title>
+        <rdfs:label xml:lang="en">Yes</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-1-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-1-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-1"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-1-2</dc:identifier>
+        <dc:title xml:lang="en">No</dc:title>
+        <rdfs:label xml:lang="en">No</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-11"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Genetic analysis</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-1</dc:identifier>
+        <dc:title xml:lang="en">Genetic analysis</dc:title>
+        <rdfs:label xml:lang="en">Genetic analysis</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-11"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Muscle biopsy</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-2</dc:identifier>
+        <dc:title xml:lang="en">Muscle biopsy</dc:title>
+        <rdfs:label xml:lang="en">Muscle biopsy</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-11"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-11-3</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-13"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Yes</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-1</dc:identifier>
+        <dc:title xml:lang="en">Yes</dc:title>
+        <rdfs:label xml:lang="en">Yes</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-13"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-2</dc:identifier>
+        <dc:title xml:lang="en">No</dc:title>
+        <rdfs:label xml:lang="en">No</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-13"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Sometimes</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-13-3</dc:identifier>
+        <dc:title xml:lang="en">Sometimes</dc:title>
+        <rdfs:label xml:lang="en">Sometimes</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-15"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Yes, pediatric DMD patients receive annual education on adrenal suppression and stress dosing during illness</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-1</dc:identifier>
+        <dc:title xml:lang="en">Yes, pediatric DMD patients receive annual education on adrenal suppression and stress dosing during illness</dc:title>
+        <rdfs:label xml:lang="en">Yes, pediatric DMD patients receive annual education on adrenal suppression and stress dosing during illness</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-15"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Pediatric DMD patients receive education on adrenal suppression and stress dosing during illness, but less than once a year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-2</dc:identifier>
+        <dc:title xml:lang="en">Pediatric DMD patients receive education on adrenal suppression and stress dosing during illness, but less than once a year</dc:title>
+        <rdfs:label xml:lang="en">Pediatric DMD patients receive education on adrenal suppression and stress dosing during illness, but less than once a year</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-15"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No, pediatric DMD patients do not receive education on adrenal suppression and stress dosing during illness</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-15-3</dc:identifier>
+        <dc:title xml:lang="en">No, pediatric DMD patients do not receive education on adrenal suppression and stress dosing during illness</dc:title>
+        <rdfs:label xml:lang="en">No, pediatric DMD patients do not receive education on adrenal suppression and stress dosing during illness</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-17"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least every six months (or more on indication)</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-1</dc:identifier>
+        <dc:title xml:lang="en">At least every six months (or more on indication)</dc:title>
+        <rdfs:label xml:lang="en">At least every six months (or more on indication)</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-17"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once a year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-2</dc:identifier>
+        <dc:title xml:lang="en">At least once a year</dc:title>
+        <rdfs:label xml:lang="en">At least once a year</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-17"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Less than once a year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-17-3</dc:identifier>
+        <dc:title xml:lang="en">Less than once a year</dc:title>
+        <rdfs:label xml:lang="en">Less than once a year</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-19"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Yes</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-1</dc:identifier>
+        <dc:title xml:lang="en">Yes</dc:title>
+        <rdfs:label xml:lang="en">Yes</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-19"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-2</dc:identifier>
+        <dc:title xml:lang="en">No</dc:title>
+        <rdfs:label xml:lang="en">No</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-19"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-19-3</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-21"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Yes</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-1</dc:identifier>
+        <dc:title xml:lang="en">Yes</dc:title>
+        <rdfs:label xml:lang="en">Yes</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-21"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-2</dc:identifier>
+        <dc:title xml:lang="en">No</dc:title>
+        <rdfs:label xml:lang="en">No</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-21"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: On indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-21-3</dc:identifier>
+        <dc:title xml:lang="en">On indication</dc:title>
+        <rdfs:label xml:lang="en">On indication</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-23"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once every six months</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-1</dc:identifier>
+        <dc:title xml:lang="en">At least once every six months</dc:title>
+        <rdfs:label xml:lang="en">At least once every six months</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-23"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-2</dc:identifier>
+        <dc:title xml:lang="en">At least once per year</dc:title>
+        <rdfs:label xml:lang="en">At least once per year</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-23"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-23-3</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Lung volume recruitment, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-1</dc:identifier>
+        <dc:title xml:lang="en">Lung volume recruitment, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Lung volume recruitment, in the applying center</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-10 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-10">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Influenza vaccine, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-10</dc:identifier>
+        <dc:title xml:lang="en">Influenza vaccine, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Influenza vaccine, in shared care</rdfs:label>
+        <local:answerorder>10</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-11 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-11">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Influenza vaccine, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-11</dc:identifier>
+        <dc:title xml:lang="en">Influenza vaccine, no</dc:title>
+        <rdfs:label xml:lang="en">Influenza vaccine, no</rdfs:label>
+        <local:answerorder>11</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-12 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-12">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Influenza vaccine, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-12</dc:identifier>
+        <dc:title xml:lang="en">Influenza vaccine, on indication</dc:title>
+        <rdfs:label xml:lang="en">Influenza vaccine, on indication</rdfs:label>
+        <local:answerorder>12</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-13 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-13">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Covid vaccine, in the appying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-13</dc:identifier>
+        <dc:title xml:lang="en">Covid vaccine, in the appying center</dc:title>
+        <rdfs:label xml:lang="en">Covid vaccine, in the appying center</rdfs:label>
+        <local:answerorder>13</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-14 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-14">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Covid vaccine, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-14</dc:identifier>
+        <dc:title xml:lang="en">Covid vaccine, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Covid vaccine, in shared care</rdfs:label>
+        <local:answerorder>14</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-15 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-15">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Covid vaccine, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-15</dc:identifier>
+        <dc:title xml:lang="en">Covid vaccine, no</dc:title>
+        <rdfs:label xml:lang="en">Covid vaccine, no</rdfs:label>
+        <local:answerorder>15</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-16 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-16">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Covid vaccine, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-16</dc:identifier>
+        <dc:title xml:lang="en">Covid vaccine, on indication</dc:title>
+        <rdfs:label xml:lang="en">Covid vaccine, on indication</rdfs:label>
+        <local:answerorder>16</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-17 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-17">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Pneumococcal vacinne, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-17</dc:identifier>
+        <dc:title xml:lang="en">Pneumococcal vacinne, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Pneumococcal vacinne, in the applying center</rdfs:label>
+        <local:answerorder>17</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-18 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-18">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Pneumococcal vaccine, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-18</dc:identifier>
+        <dc:title xml:lang="en">Pneumococcal vaccine, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Pneumococcal vaccine, in shared care</rdfs:label>
+        <local:answerorder>18</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-19 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-19">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Pneumococcal vaccine, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-19</dc:identifier>
+        <dc:title xml:lang="en">Pneumococcal vaccine, no</dc:title>
+        <rdfs:label xml:lang="en">Pneumococcal vaccine, no</rdfs:label>
+        <local:answerorder>19</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Lung volume recruitment, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-2</dc:identifier>
+        <dc:title xml:lang="en">Lung volume recruitment, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Lung volume recruitment, in shared care</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-20 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-20">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Pneumococcal vaccine, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-20</dc:identifier>
+        <dc:title xml:lang="en">Pneumococcal vaccine, on indication</dc:title>
+        <rdfs:label xml:lang="en">Pneumococcal vaccine, on indication</rdfs:label>
+        <local:answerorder>20</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Lung volume recruitment, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-3</dc:identifier>
+        <dc:title xml:lang="en">Lung volume recruitment, no</dc:title>
+        <rdfs:label xml:lang="en">Lung volume recruitment, no</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Lung volume recruitment, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-4</dc:identifier>
+        <dc:title xml:lang="en">Lung volume recruitment, on indication</dc:title>
+        <rdfs:label xml:lang="en">Lung volume recruitment, on indication</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Nocturnal ventilation, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-5</dc:identifier>
+        <dc:title xml:lang="en">Nocturnal ventilation, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Nocturnal ventilation, in the applying center</rdfs:label>
+        <local:answerorder>5</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-6 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-6">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Nocturnal ventilation, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-6</dc:identifier>
+        <dc:title xml:lang="en">Nocturnal ventilation, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Nocturnal ventilation, in shared care</rdfs:label>
+        <local:answerorder>6</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-7 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-7">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Nocturnal ventilation, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-7</dc:identifier>
+        <dc:title xml:lang="en">Nocturnal ventilation, no</dc:title>
+        <rdfs:label xml:lang="en">Nocturnal ventilation, no</rdfs:label>
+        <local:answerorder>7</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-8 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-8">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Nocturnal ventiulation, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-8</dc:identifier>
+        <dc:title xml:lang="en">Nocturnal ventiulation, on indication</dc:title>
+        <rdfs:label xml:lang="en">Nocturnal ventiulation, on indication</rdfs:label>
+        <local:answerorder>8</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-9 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-9">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Influenza vaccine, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-25-9</dc:identifier>
+        <dc:title xml:lang="en">Influenza vaccine, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Influenza vaccine, in the applying center</rdfs:label>
+        <local:answerorder>9</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-27"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-1</dc:identifier>
+        <dc:title xml:lang="en">At least once per year</dc:title>
+        <rdfs:label xml:lang="en">At least once per year</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-27"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Every two-to-five years</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-2</dc:identifier>
+        <dc:title xml:lang="en">Every two-to-five years</dc:title>
+        <rdfs:label xml:lang="en">Every two-to-five years</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-27"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-27-3</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once every six months</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-1</dc:identifier>
+        <dc:title xml:lang="en">At least once every six months</dc:title>
+        <rdfs:label xml:lang="en">At least once every six months</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-2</dc:identifier>
+        <dc:title xml:lang="en">At least once per year</dc:title>
+        <rdfs:label xml:lang="en">At least once per year</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Every two-to-five years</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-3</dc:identifier>
+        <dc:title xml:lang="en">Every two-to-five years</dc:title>
+        <rdfs:label xml:lang="en">Every two-to-five years</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Different</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-29-4</dc:identifier>
+        <dc:title xml:lang="en">Different</dc:title>
+        <rdfs:label xml:lang="en">Different</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-3-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-3-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-3"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Care is provided by the applying center only</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-3-1</dc:identifier>
+        <dc:title xml:lang="en">Care is provided by the applying center only</dc:title>
+        <rdfs:label xml:lang="en">Care is provided by the applying center only</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-3-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-3-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-3"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Care is shared with other locations</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-3-2</dc:identifier>
+        <dc:title xml:lang="en">Care is shared with other locations</dc:title>
+        <rdfs:label xml:lang="en">Care is shared with other locations</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-31"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least every 1-2 years</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-1</dc:identifier>
+        <dc:title xml:lang="en">At least every 1-2 years</dc:title>
+        <rdfs:label xml:lang="en">At least every 1-2 years</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-31"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least every 2-3 years</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-2</dc:identifier>
+        <dc:title xml:lang="en">At least every 2-3 years</dc:title>
+        <rdfs:label xml:lang="en">At least every 2-3 years</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-31"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-31-3</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-33"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least ever six months</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-1</dc:identifier>
+        <dc:title xml:lang="en">At least ever six months</dc:title>
+        <rdfs:label xml:lang="en">At least ever six months</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-33"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: At least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-2</dc:identifier>
+        <dc:title xml:lang="en">At least once per year</dc:title>
+        <rdfs:label xml:lang="en">At least once per year</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-33"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-33-3</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of mental health of children, at every clinic</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-1</dc:identifier>
+        <dc:title xml:lang="en">Assessment of mental health of children, at every clinic</dc:title>
+        <rdfs:label xml:lang="en">Assessment of mental health of children, at every clinic</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-10 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-10">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of quality of life of families, at evert clinic</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-10</dc:identifier>
+        <dc:title xml:lang="en">Assessment of quality of life of families, at evert clinic</dc:title>
+        <rdfs:label xml:lang="en">Assessment of quality of life of families, at evert clinic</rdfs:label>
+        <local:answerorder>10</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-11 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-11">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of quality of life of families, at least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-11</dc:identifier>
+        <dc:title xml:lang="en">Assessment of quality of life of families, at least once per year</dc:title>
+        <rdfs:label xml:lang="en">Assessment of quality of life of families, at least once per year</rdfs:label>
+        <local:answerorder>11</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-12 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-12">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of quality of life of families, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-12</dc:identifier>
+        <dc:title xml:lang="en">Assessment of quality of life of families, on indication</dc:title>
+        <rdfs:label xml:lang="en">Assessment of quality of life of families, on indication</rdfs:label>
+        <local:answerorder>12</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of mental health of children, at least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-2</dc:identifier>
+        <dc:title xml:lang="en">Assessment of mental health of children, at least once per year</dc:title>
+        <rdfs:label xml:lang="en">Assessment of mental health of children, at least once per year</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of mental health of children, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-3</dc:identifier>
+        <dc:title xml:lang="en">Assessment of mental health of children, on indication</dc:title>
+        <rdfs:label xml:lang="en">Assessment of mental health of children, on indication</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of mental health of families, at every clinic</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-4</dc:identifier>
+        <dc:title xml:lang="en">Assessment of mental health of families, at every clinic</dc:title>
+        <rdfs:label xml:lang="en">Assessment of mental health of families, at every clinic</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of mental health of families, at least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-5</dc:identifier>
+        <dc:title xml:lang="en">Assessment of mental health of families, at least once per year</dc:title>
+        <rdfs:label xml:lang="en">Assessment of mental health of families, at least once per year</rdfs:label>
+        <local:answerorder>5</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-6 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-6">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of mental health of families, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-6</dc:identifier>
+        <dc:title xml:lang="en">Assessment of mental health of families, on indication</dc:title>
+        <rdfs:label xml:lang="en">Assessment of mental health of families, on indication</rdfs:label>
+        <local:answerorder>6</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-7 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-7">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of quality of life of children, at every clinic</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-7</dc:identifier>
+        <dc:title xml:lang="en">Assessment of quality of life of children, at every clinic</dc:title>
+        <rdfs:label xml:lang="en">Assessment of quality of life of children, at every clinic</rdfs:label>
+        <local:answerorder>7</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-8 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-8">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of quality of life of children, at least once per year</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-8</dc:identifier>
+        <dc:title xml:lang="en">Assessment of quality of life of children, at least once per year</dc:title>
+        <rdfs:label xml:lang="en">Assessment of quality of life of children, at least once per year</rdfs:label>
+        <local:answerorder>8</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-9 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-9">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Assessment of quality of life of children, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-35-9</dc:identifier>
+        <dc:title xml:lang="en">Assessment of quality of life of children, on indication</dc:title>
+        <rdfs:label xml:lang="en">Assessment of quality of life of children, on indication</rdfs:label>
+        <local:answerorder>9</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for children, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-1</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for children, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for children, in the applying center</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-10 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-10">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evaluation for learning problems, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-10</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evaluation for learning problems, in shared care</rdfs:label>
+        <local:answerorder>10</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-11 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-11">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evaluation for learning problems, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-11</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, no</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evaluation for learning problems, no</rdfs:label>
+        <local:answerorder>11</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-12 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-12">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evaluation for learning problems, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-12</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, on indication</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evaluation for learning problems, on indication</rdfs:label>
+        <local:answerorder>12</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-13 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-13">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for emotional problems, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-13</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for emotional problems, in the applying center</rdfs:label>
+        <local:answerorder>13</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-14 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-14">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for emotional problems, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-14</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for emotional problems, in shared care</rdfs:label>
+        <local:answerorder>14</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-15 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-15">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for emotional problems, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-15</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, no</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for emotional problems, no</rdfs:label>
+        <local:answerorder>15</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-16 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-16">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for emotional problems, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-16</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, on indication</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for emotional problems, on indication</rdfs:label>
+        <local:answerorder>16</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-17 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-17">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for behavioral problems, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-17</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for behavioral problems, in the applying center</rdfs:label>
+        <local:answerorder>17</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-18 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-18">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for behavioral problems, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-18</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for behavioral problems, in shared care</rdfs:label>
+        <local:answerorder>18</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-19 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-19">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for behavioral problems, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-19</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, no</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for behavioral problems, no</rdfs:label>
+        <local:answerorder>19</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for children, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-2</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for children, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for children, in shared care</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-20 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-20">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evalution for behavioral problems, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-20</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, on indication</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evalution for behavioral problems, on indication</rdfs:label>
+        <local:answerorder>20</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-21 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-21">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for learning problems, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-21</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for learning problems, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for learning problems, in the applying center</rdfs:label>
+        <local:answerorder>21</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-22 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-22">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for learning problems, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-22</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for learning problems, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for learning problems, in shared care</rdfs:label>
+        <local:answerorder>22</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-23 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-23">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for learning problems, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-23</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for learning problems, no</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for learning problems, no</rdfs:label>
+        <local:answerorder>23</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-24 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-24">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for learning problems, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-24</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for learning problems, on indication</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for learning problems, on indication</rdfs:label>
+        <local:answerorder>24</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-25 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-25">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for emotional problems, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-25</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for emotional problems, in the applying center</rdfs:label>
+        <local:answerorder>25</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-26 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-26">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for emotional problems, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-26</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for emotional problems, in shared care</rdfs:label>
+        <local:answerorder>26</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-27 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-27">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for emotional problems, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-27</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, no</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for emotional problems, no</rdfs:label>
+        <local:answerorder>27</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-28 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-28">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for emotional problems, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-28</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, on indication</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for emotional problems, on indication</rdfs:label>
+        <local:answerorder>28</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-29 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-29">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for behavioral problems, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-29</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for behavioral problems, in the applying center</rdfs:label>
+        <local:answerorder>29</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for children, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-3</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for children, no</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for children, no</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-30 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-30">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for behavioral problems, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-30</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for behavioral problems, in shared care</rdfs:label>
+        <local:answerorder>30</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-31 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-31">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for behavioral problems, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-31</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, no</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for behavioral problems, no</rdfs:label>
+        <local:answerorder>31</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-32 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-32">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological interventions for behavioral problems, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-32</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, on indication</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological interventions for behavioral problems, on indication</rdfs:label>
+        <local:answerorder>32</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for children, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-4</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for children, on indication</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for children, on indication</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for families, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-5</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for families, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for families, in the applying center</rdfs:label>
+        <local:answerorder>5</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-6 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-6">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for families, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-6</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for families, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for families, in shared care</rdfs:label>
+        <local:answerorder>6</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-7 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-7">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for families, no</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-7</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for families, no</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for families, no</rdfs:label>
+        <local:answerorder>7</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-8 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-8">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Ongoing mental support for families, on indication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-8</dc:identifier>
+        <dc:title xml:lang="en">Ongoing mental support for families, on indication</dc:title>
+        <rdfs:label xml:lang="en">Ongoing mental support for families, on indication</rdfs:label>
+        <local:answerorder>8</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-9 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-9">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neuropsychological evaluation for learning problems, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-37-9</dc:identifier>
+        <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neuropsychological evaluation for learning problems, in the applying center</rdfs:label>
+        <local:answerorder>9</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Airway (mouth opening)</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-1</dc:identifier>
+        <dc:title xml:lang="en">Airway (mouth opening)</dc:title>
+        <rdfs:label xml:lang="en">Airway (mouth opening)</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Cardiac status (echo/cMRI)</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-2</dc:identifier>
+        <dc:title xml:lang="en">Cardiac status (echo/cMRI)</dc:title>
+        <rdfs:label xml:lang="en">Cardiac status (echo/cMRI)</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Respiratory status</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-3</dc:identifier>
+        <dc:title xml:lang="en">Respiratory status</dc:title>
+        <rdfs:label xml:lang="en">Respiratory status</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Other</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-39-4</dc:identifier>
+        <dc:title xml:lang="en">Other</dc:title>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: The care plan</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-1</dc:identifier>
+        <dc:title xml:lang="en">The care plan</dc:title>
+        <rdfs:label xml:lang="en">The care plan</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Coordination</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-2</dc:identifier>
+        <dc:title xml:lang="en">Coordination</dc:title>
+        <rdfs:label xml:lang="en">Coordination</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Communication</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-3</dc:identifier>
+        <dc:title xml:lang="en">Communication</dc:title>
+        <rdfs:label xml:lang="en">Communication</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Documentation</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-4</dc:identifier>
+        <dc:title xml:lang="en">Documentation</dc:title>
+        <rdfs:label xml:lang="en">Documentation</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Collaboration</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-5</dc:identifier>
+        <dc:title xml:lang="en">Collaboration</dc:title>
+        <rdfs:label xml:lang="en">Collaboration</rdfs:label>
+        <local:answerorder>5</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-6 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-6">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Not applicable</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-5-6</dc:identifier>
+        <dc:title xml:lang="en">Not applicable</dc:title>
+        <rdfs:label xml:lang="en">Not applicable</rdfs:label>
+        <local:answerorder>6</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Rehabilitation physician, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-1</dc:identifier>
+        <dc:title xml:lang="en">Rehabilitation physician, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Rehabilitation physician, in the applying center</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-10 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-10">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Respiratory physician, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-10</dc:identifier>
+        <dc:title xml:lang="en">Respiratory physician, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Respiratory physician, in the applying center</rdfs:label>
+        <local:answerorder>10</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-11 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-11">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Respiratory physician, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-11</dc:identifier>
+        <dc:title xml:lang="en">Respiratory physician, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Respiratory physician, in shared care</rdfs:label>
+        <local:answerorder>11</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-12 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-12">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No respiratory physician</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-12</dc:identifier>
+        <dc:title xml:lang="en">No respiratory physician</dc:title>
+        <rdfs:label xml:lang="en">No respiratory physician</rdfs:label>
+        <local:answerorder>12</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-13 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-13">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Physical therapist, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-13</dc:identifier>
+        <dc:title xml:lang="en">Physical therapist, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Physical therapist, in the applying center</rdfs:label>
+        <local:answerorder>13</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-14 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-14">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Physical therapist, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-14</dc:identifier>
+        <dc:title xml:lang="en">Physical therapist, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Physical therapist, in shared care</rdfs:label>
+        <local:answerorder>14</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-15 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-15">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No physicial therapist</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-15</dc:identifier>
+        <dc:title xml:lang="en">No physicial therapist</dc:title>
+        <rdfs:label xml:lang="en">No physicial therapist</rdfs:label>
+        <local:answerorder>15</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-16 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-16">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Occupational therapist, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-16</dc:identifier>
+        <dc:title xml:lang="en">Occupational therapist, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Occupational therapist, in the applying center</rdfs:label>
+        <local:answerorder>16</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-17 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-17">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Occupational therapist, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-17</dc:identifier>
+        <dc:title xml:lang="en">Occupational therapist, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Occupational therapist, in shared care</rdfs:label>
+        <local:answerorder>17</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-18 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-18">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No occupational therapist</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-18</dc:identifier>
+        <dc:title xml:lang="en">No occupational therapist</dc:title>
+        <rdfs:label xml:lang="en">No occupational therapist</rdfs:label>
+        <local:answerorder>18</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-19 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-19">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Speech and language therapist, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-19</dc:identifier>
+        <dc:title xml:lang="en">Speech and language therapist, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Speech and language therapist, in the applying center</rdfs:label>
+        <local:answerorder>19</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Rehabilitation physician, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-2</dc:identifier>
+        <dc:title xml:lang="en">Rehabilitation physician, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Rehabilitation physician, in shared care</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-20 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-20">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Speech and language therapist, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-20</dc:identifier>
+        <dc:title xml:lang="en">Speech and language therapist, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Speech and language therapist, in shared care</rdfs:label>
+        <local:answerorder>20</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-21 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-21">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No speech and language therapist</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-21</dc:identifier>
+        <dc:title xml:lang="en">No speech and language therapist</dc:title>
+        <rdfs:label xml:lang="en">No speech and language therapist</rdfs:label>
+        <local:answerorder>21</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-22 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-22">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Dietitian, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-22</dc:identifier>
+        <dc:title xml:lang="en">Dietitian, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Dietitian, in the applying center</rdfs:label>
+        <local:answerorder>22</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-23 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-23">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Dietitian, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-23</dc:identifier>
+        <dc:title xml:lang="en">Dietitian, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Dietitian, in shared care</rdfs:label>
+        <local:answerorder>23</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-24 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-24">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No dietitian</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-24</dc:identifier>
+        <dc:title xml:lang="en">No dietitian</dc:title>
+        <rdfs:label xml:lang="en">No dietitian</rdfs:label>
+        <local:answerorder>24</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-25 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-25">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: (Clinical neuro)psychologist, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-25</dc:identifier>
+        <dc:title xml:lang="en">(Clinical neuro)psychologist, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">(Clinical neuro)psychologist, in the applying center</rdfs:label>
+        <local:answerorder>25</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-26 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-26">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: (Clinical neuro)psychologist, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-26</dc:identifier>
+        <dc:title xml:lang="en">(Clinical neuro)psychologist, in shared care</dc:title>
+        <rdfs:label xml:lang="en">(Clinical neuro)psychologist, in shared care</rdfs:label>
+        <local:answerorder>26</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-27 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-27">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No (clinical neuro)psychologist</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-27</dc:identifier>
+        <dc:title xml:lang="en">No (clinical neuro)psychologist</dc:title>
+        <rdfs:label xml:lang="en">No (clinical neuro)psychologist</rdfs:label>
+        <local:answerorder>27</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No rehabilitation physician</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-3</dc:identifier>
+        <dc:title xml:lang="en">No rehabilitation physician</dc:title>
+        <rdfs:label xml:lang="en">No rehabilitation physician</rdfs:label>
+        <local:answerorder>3</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neurologist, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-4</dc:identifier>
+        <dc:title xml:lang="en">Neurologist, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Neurologist, in the applying center</rdfs:label>
+        <local:answerorder>4</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Neurologist, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-5</dc:identifier>
+        <dc:title xml:lang="en">Neurologist, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Neurologist, in shared care</rdfs:label>
+        <local:answerorder>5</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-6 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-6">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No neurologist</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-6</dc:identifier>
+        <dc:title xml:lang="en">No neurologist</dc:title>
+        <rdfs:label xml:lang="en">No neurologist</rdfs:label>
+        <local:answerorder>6</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-7 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-7">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Cardiologist, in the applying center</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-7</dc:identifier>
+        <dc:title xml:lang="en">Cardiologist, in the applying center</dc:title>
+        <rdfs:label xml:lang="en">Cardiologist, in the applying center</rdfs:label>
+        <local:answerorder>7</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-8 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-8">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Cardiologist, in shared care</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-8</dc:identifier>
+        <dc:title xml:lang="en">Cardiologist, in shared care</dc:title>
+        <rdfs:label xml:lang="en">Cardiologist, in shared care</rdfs:label>
+        <local:answerorder>8</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-9 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-9">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No cardiologist</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-7-9</dc:identifier>
+        <dc:title xml:lang="en">No cardiologist</dc:title>
+        <rdfs:label xml:lang="en">No cardiologist</rdfs:label>
+        <local:answerorder>9</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-9-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-9-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-9"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Yes, there is a dedicated person (for example rehabilitation physician, neurologist, nurse etc.)</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-9-1</dc:identifier>
+        <dc:title xml:lang="en">Yes, there is a dedicated person (for example rehabilitation physician, neurologist, nurse etc.)</dc:title>
+        <rdfs:label xml:lang="en">Yes, there is a dedicated person (for example rehabilitation physician, neurologist, nurse etc.)</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-9-2 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-9-2">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-9"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: No, there is no dedicated person</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Answer-9-2</dc:identifier>
+        <dc:title xml:lang="en">No, there is no dedicated person</dc:title>
+        <rdfs:label xml:lang="en">No, there is no dedicated person</rdfs:label>
+        <local:answerorder>2</local:answerorder>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-1 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-1">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-1</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-1</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-1</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-1</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-11 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-11">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-11</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-11</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-11</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-11</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-13 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-13">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-13</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-13</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-13</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-13</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-15 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-15">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-15</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-15</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-15</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-15</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-17 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-17">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-17</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-17</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-17</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-17</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-19 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-19">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-19</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-19</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-19</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-19</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-21 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-21">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-21</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-21</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-21</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-21</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-23 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-23">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-23</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-23</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-23</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-23</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-25</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-25</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-25</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-25</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-27 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-27">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-27</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-27</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-27</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-27</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-29</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-29</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-29</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-29</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-3</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-3</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-3</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-3</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-31 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-31">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-31</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-31</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-31</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-31</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-33 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-33">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-33</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-33</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-33</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-33</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-35</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-35</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-35</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-35</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-37</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-37</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-37</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-37</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-39</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-39</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-39</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-39</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-5</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-5</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-5</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-5</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-7</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-7</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-7</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-7</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-9 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-9">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers"/>
+        <dc:description xml:lang="en">Answer Block from the Accredited Duchenne Centers Evaluation: Block AnswerBlock-9</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#AnswerBlock-9</dc:identifier>
+        <dc:title xml:lang="en">AnswerBlock-9</dc:title>
+        <rdfs:label xml:lang="en">AnswerBlock-9</rdfs:label>
+        <local:associatedquestion>ABC123</local:associatedquestion>
+    </owl:Class>
     
 
 
@@ -5245,7 +7352,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Patient -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Patient">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000171"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Questionnaire"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: Patient</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Patient</dc:identifier>
         <dc:title xml:lang="en">Patient</dc:title>
@@ -5341,7 +7448,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Professional -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Professional">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000171"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Questionnaire"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: Professional</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Professional</dc:identifier>
         <dc:title xml:lang="en">Professional</dc:title>
@@ -5418,6 +7525,30 @@
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Professional-Questionnaire-Child-Transition</dc:identifier>
         <dc:title xml:lang="en">Professional-Questionnaire-Child-Transition</dc:title>
         <rdfs:label xml:lang="en">Professional-Questionnaire-Child-Transition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Questionnaire -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Questionnaire">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000171"/>
+        <dc:description xml:lang="en">Questionnaire Component of the Accredited Duchenne Centers Evaluation</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Questionnaire</dc:identifier>
+        <dc:title xml:lang="en">Questionnaire</dc:title>
+        <rdfs:label xml:lang="en">Questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000171"/>
+        <dc:description xml:lang="en">Answer Blocks of the Accredited Duchenne Centers Evaluation</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QuestionnaireAnswers</dc:identifier>
+        <dc:title xml:lang="en">Questionnaire Answers</dc:title>
+        <rdfs:label xml:lang="en">Questionnaire Answers</rdfs:label>
     </owl:Class>
     
 
