@@ -1451,6 +1451,10 @@
     
 
 
+
+
+
+<!--   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED -->
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO1 -->
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO1">
@@ -1459,6 +1463,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO1</dc:identifier>
         <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your quality of life (how satisfied you are with your life)? </dc:title>
         <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your quality of life (how satisfied you are with your life)? </rdfs:label>
+        <dc:title xml:lang="nl">Bent u gevraagd een vragenlijst in te vullen over uw kwaliteit van leven (hoe tevreden u bent met uw leven)? </dc:title>
+        <rdfs:label xml:lang="nl">Bent u gevraagd een vragenlijst in te vullen over uw kwaliteit van leven (hoe tevreden u bent met uw leven)? </rdfs:label>
         <local:questionorder>1</local:questionorder>
         <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
@@ -1473,6 +1479,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO2</dc:identifier>
         <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your social participation? </dc:title>
         <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your social participation? </rdfs:label>
+        <dc:title xml:lang="nl">Bent u gevraagd een vragenlijst in te vullen over uw maatschappelijke participatie? </dc:title>
+        <rdfs:label xml:lang="nl">Bent u gevraagd een vragenlijst in te vullen over uw maatschappelijke participatie? </rdfs:label>
         <local:questionorder>2</local:questionorder>
         <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
@@ -1487,6 +1495,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO3</dc:identifier>
         <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues? </dc:title>
         <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues? </rdfs:label>
+        <dc:title xml:lang="nl">Bent u gevraagd een vragenlijst in te vullen over uw gedragsproblemen? </dc:title>
+        <rdfs:label xml:lang="nl">Bent u gevraagd een vragenlijst in te vullen over uw gedragsproblemen? </rdfs:label>
         <local:questionorder>3</local:questionorder>
         <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
@@ -1501,6 +1511,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO4</dc:identifier>
         <dc:title xml:lang="en">Are you requested to fill out a questionnaire about your satisfaction with your Duchenne health care regularly? </dc:title>
         <rdfs:label xml:lang="en">Are you requested to fill out a questionnaire about your satisfaction with your Duchenne health care regularly? </rdfs:label>
+        <dc:title xml:lang="nl">Wordt u gevraagd regelmatig een vragenlijst in te vullen over uw tevredenheid over uw zorg van Duchenne? </dc:title>
+        <rdfs:label xml:lang="nl">Wordt u gevraagd regelmatig een vragenlijst in te vullen over uw tevredenheid over uw zorg van Duchenne? </rdfs:label>
         <local:questionorder>4</local:questionorder>
         <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
@@ -1515,9 +1527,17 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO5</dc:identifier>
         <dc:title xml:lang="en">Comments/suggestions </dc:title>
         <rdfs:label xml:lang="en">Comments/suggestions </rdfs:label>
+        <dc:title xml:lang="nl">Opmerkingen/suggesties </dc:title>
+        <rdfs:label xml:lang="nl">Opmerkingen/suggesties </rdfs:label>
         <local:questionorder>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments</local:questionorder>
     </owl:Class>
-    
+<!--   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED -->
+
+
+
+
+
+
 
 
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQA1 -->
@@ -2729,6 +2749,10 @@
     
 
 
+
+
+<!-- TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED   -->
+
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-1 -->
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-1">
@@ -2737,6 +2761,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-1</dc:identifier>
         <dc:title xml:lang="en">Yes</dc:title>
         <rdfs:label xml:lang="en">Yes</rdfs:label>
+        <dc:title xml:lang="nl">Ja</dc:title>
+        <rdfs:label xml:lang="nl">Ja</rdfs:label>
         <local:answerorder>1</local:answerorder>
         <local:widget>drop</local:widget>
     </owl:Class>
@@ -2751,6 +2777,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-2</dc:identifier>
         <dc:title xml:lang="en">No</dc:title>
         <rdfs:label xml:lang="en">No</rdfs:label>
+        <dc:title xml:lang="nl">Nee</dc:title>
+        <rdfs:label xml:lang="nl">Nee</rdfs:label>
         <local:answerorder>2</local:answerorder>
         <local:widget>drop</local:widget>
     </owl:Class>
@@ -2765,6 +2793,8 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-3</dc:identifier>
         <dc:title xml:lang="en">Sometimes</dc:title>
         <rdfs:label xml:lang="en">Sometimes</rdfs:label>
+        <dc:title xml:lang="nl">Soms</dc:title>
+        <rdfs:label xml:lang="nl">Soms</rdfs:label>
         <local:answerorder>3</local:answerorder>
         <local:widget>drop</local:widget>
     </owl:Class>
@@ -2777,10 +2807,14 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-2</dc:identifier>
         <dc:title xml:lang="en">Comments</dc:title>
         <rdfs:label xml:lang="en">Comments</rdfs:label>
+        <dc:title xml:lang="nl">Opmerkingen</dc:title>
+        <rdfs:label xml:lang="nl">Opmerkingen</rdfs:label>
         <local:answerorder>1</local:answerorder>
         <local:widget>field</local:widget>
     </owl:Class>
 
+<!-- TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED   -->
+<!-- TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED   -->
 
 
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-15-1 -->
