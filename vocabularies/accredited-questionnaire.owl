@@ -1460,6 +1460,7 @@
         <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your quality of life (how satisfied you are with your life)? </dc:title>
         <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your quality of life (how satisfied you are with your life)? </rdfs:label>
         <local:questionorder>1</local:questionorder>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
     
 
@@ -1473,6 +1474,7 @@
         <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your social participation? </dc:title>
         <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your social participation? </rdfs:label>
         <local:questionorder>2</local:questionorder>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
     
 
@@ -1486,6 +1488,7 @@
         <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues? </dc:title>
         <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues? </rdfs:label>
         <local:questionorder>3</local:questionorder>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
     
 
@@ -1499,6 +1502,7 @@
         <dc:title xml:lang="en">Are you requested to fill out a questionnaire about your satisfaction with your Duchenne health care regularly? </dc:title>
         <rdfs:label xml:lang="en">Are you requested to fill out a questionnaire about your satisfaction with your Duchenne health care regularly? </rdfs:label>
         <local:questionorder>4</local:questionorder>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</local:answerblock>
     </owl:Class>
     
 
@@ -1511,7 +1515,7 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FAQO5</dc:identifier>
         <dc:title xml:lang="en">Comments/suggestions </dc:title>
         <rdfs:label xml:lang="en">Comments/suggestions </rdfs:label>
-        <local:questionorder>5</local:questionorder>
+        <local:questionorder>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments</local:questionorder>
     </owl:Class>
     
 
@@ -2734,6 +2738,7 @@
         <dc:title xml:lang="en">Yes</dc:title>
         <rdfs:label xml:lang="en">Yes</rdfs:label>
         <local:answerorder>1</local:answerorder>
+        <local:widget>drop</local:widget>
     </owl:Class>
     
 
@@ -2747,6 +2752,7 @@
         <dc:title xml:lang="en">No</dc:title>
         <rdfs:label xml:lang="en">No</rdfs:label>
         <local:answerorder>2</local:answerorder>
+        <local:widget>drop</local:widget>
     </owl:Class>
     
 
@@ -2760,8 +2766,21 @@
         <dc:title xml:lang="en">Sometimes</dc:title>
         <rdfs:label xml:lang="en">Sometimes</rdfs:label>
         <local:answerorder>3</local:answerorder>
+        <local:widget>drop</local:widget>
     </owl:Class>
-    
+
+    <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-Comments -->
+
+    <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-Comments">
+        <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments"/>
+        <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Comments</dc:description>
+        <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-2</dc:identifier>
+        <dc:title xml:lang="en">Comments</dc:title>
+        <rdfs:label xml:lang="en">Comments</rdfs:label>
+        <local:answerorder>1</local:answerorder>
+        <local:widget>field</local:widget>
+    </owl:Class>
+
 
 
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-15-1 -->
@@ -9197,6 +9216,17 @@
         <rdfs:label xml:lang="en">Questionnaire-Answers-Professional-Adult-AnswerBlock-9</rdfs:label>
     </owl:Class>
     
+    <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments -->
+
+    <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments">
+        <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult"/>
+        <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: Comments</dc:description>
+        <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</dc:identifier>
+        <dc:title xml:lang="en">Questionnaire-Answers-Professional-Adult-Comments</dc:title>
+        <rdfs:label xml:lang="en">Questionnaire-Answers-Professional-Adult-Comments</rdfs:label>
+    </owl:Class>
+
+
 
 
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Child -->
