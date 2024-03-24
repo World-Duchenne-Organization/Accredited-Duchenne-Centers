@@ -18,7 +18,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/"
      xmlns:resource="http://semanticscience.org/resource/">
-    <owl:Ontology rdf:about="http://semanticscience.org/ontology/sio/v1.51/sio-release.owl">
+    <owl:Ontology rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl">
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio/v1.51/sio-release.owl"/>
         <dc:creator>Elizabeth Vroom</dc:creator>
         <dc:creator>Imelda de Groot</dc:creator>
@@ -31,7 +31,7 @@
         <doap:Version>1.0</doap:Version>
         <rdfs:comment xml:lang="en">An ontology for the Accredited Duchenne Centers Questionnaires and Interviews</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl"/>
-        <rdfs:label xml:lang="en">Accredited Duchenne Centers Questions</rdfs:label>
+        <rdfs:label xml:lang="en">Accredited Duchenne Centers Questions and Answers</rdfs:label>
         <foaf:page rdf:resource="https://accredited.worldduchenne.org/"/>
     </owl:Ontology>
     
@@ -1529,7 +1529,8 @@
         <rdfs:label xml:lang="en">Comments/suggestions </rdfs:label>
         <dc:title xml:lang="nl">Opmerkingen/suggesties </dc:title>
         <rdfs:label xml:lang="nl">Opmerkingen/suggesties </rdfs:label>
-        <local:questionorder>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments</local:questionorder>
+        <local:questionorder>5</local:questionorder>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments</local:answerblock>
     </owl:Class>
 <!--   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED   TRANSLATED -->
 
@@ -2753,6 +2754,8 @@
 
 <!-- TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED  TRANSLATED   -->
 
+
+
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-1 -->
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-1">
@@ -2804,7 +2807,7 @@
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-Comments">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments"/>
         <dc:description xml:lang="en">Answer from the Accredited Duchenne Centers Evaluation: Comments</dc:description>
-        <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-13-2</dc:identifier>
+        <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAA-Comments</dc:identifier>
         <dc:title xml:lang="en">Comments</dc:title>
         <rdfs:label xml:lang="en">Comments</rdfs:label>
         <dc:title xml:lang="nl">Opmerkingen</dc:title>
@@ -9249,18 +9252,6 @@
         <dc:title xml:lang="en">Questionnaire-Answers-Professional-Adult-AnswerBlock-9</dc:title>
         <rdfs:label xml:lang="en">Questionnaire-Answers-Professional-Adult-AnswerBlock-9</rdfs:label>
     </owl:Class>
-    
-    <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments -->
-
-    <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Comments">
-        <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult"/>
-        <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: Comments</dc:description>
-        <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Adult-AnswerBlock-13</dc:identifier>
-        <dc:title xml:lang="en">Questionnaire-Answers-Professional-Adult-Comments</dc:title>
-        <rdfs:label xml:lang="en">Questionnaire-Answers-Professional-Adult-Comments</rdfs:label>
-    </owl:Class>
-
-
 
 
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#Questionnaire-Answers-Professional-Child -->
