@@ -3456,10 +3456,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: FCQAN4</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4</dc:identifier>
+        <dc:title xml:lang="en">FCQAN4</dc:title>
+        <rdfs:label xml:lang="en">FCQAN4</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Rehabilitation physician</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-1</dc:identifier>
         <dc:title xml:lang="en">Rehabilitation physician</dc:title>
@@ -3473,7 +3485,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Neurologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-2</dc:identifier>
         <dc:title xml:lang="en">Neurologist</dc:title>
@@ -3487,7 +3499,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Cardiologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-3</dc:identifier>
         <dc:title xml:lang="en">Cardiologist</dc:title>
@@ -3501,7 +3513,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Respiratory physician</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-4</dc:identifier>
         <dc:title xml:lang="en">Respiratory physician</dc:title>
@@ -3515,7 +3527,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Physical therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-5</dc:identifier>
         <dc:title xml:lang="en">Physical therapist</dc:title>
@@ -3529,7 +3541,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Occupational therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-6</dc:identifier>
         <dc:title xml:lang="en">Occupational therapist</dc:title>
@@ -3543,7 +3555,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Speech and language therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-7</dc:identifier>
         <dc:title xml:lang="en">Speech and language therapist</dc:title>
@@ -3557,7 +3569,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Dietitian</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-8</dc:identifier>
         <dc:title xml:lang="en">Dietitian</dc:title>
@@ -3571,7 +3583,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4"/>
         <dc:description xml:lang="en">Clinical neuropsychologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4-9</dc:identifier>
         <dc:title xml:lang="en">Clinical neuropsychologist</dc:title>
@@ -5222,10 +5234,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN10</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10</dc:identifier>
+        <dc:title xml:lang="en">PAQAN10</dc:title>
+        <rdfs:label xml:lang="en">PAQAN10</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10"/>
         <dc:description xml:lang="en">Influenza vaccines</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-1</dc:identifier>
         <dc:title xml:lang="en">Influenza vaccines</dc:title>
@@ -5239,7 +5263,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10"/>
         <dc:description xml:lang="en">Covid vaccines</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-2</dc:identifier>
         <dc:title xml:lang="en">Covid vaccines</dc:title>
@@ -5253,7 +5277,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10"/>
         <dc:description xml:lang="en">Pneumococcal vaccines</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10-3</dc:identifier>
         <dc:title xml:lang="en">Pneumococcal vaccines</dc:title>
@@ -5494,10 +5518,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN15</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15</dc:identifier>
+        <dc:title xml:lang="en">PAQAN15</dc:title>
+        <rdfs:label xml:lang="en">PAQAN15</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15"/>
         <dc:description xml:lang="en">A mental health specialist (such as a psychologist or social worker)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-1</dc:identifier>
         <dc:title xml:lang="en">A mental health specialist (such as a psychologist or social worker)</dc:title>
@@ -5511,7 +5547,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15"/>
         <dc:description xml:lang="en">Clinical Neuropsychologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-2</dc:identifier>
         <dc:title xml:lang="en">Clinical Neuropsychologist</dc:title>
@@ -5525,7 +5561,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15"/>
         <dc:description xml:lang="en">Psychiatrist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15-3</dc:identifier>
         <dc:title xml:lang="en">Psychiatrist</dc:title>
@@ -5536,10 +5572,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN16</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16</dc:identifier>
+        <dc:title xml:lang="en">PAQAN16</dc:title>
+        <rdfs:label xml:lang="en">PAQAN16</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of mental health of adults, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-1</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of adults, at every clinic</dc:title>
@@ -5553,7 +5601,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of quality of life of families, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-10</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of families, at every clinic</dc:title>
@@ -5567,7 +5615,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of quality of life of families, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-11</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of families, at least once per year</dc:title>
@@ -5581,7 +5629,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of quality of life of families, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-12</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of families, on indication</dc:title>
@@ -5595,7 +5643,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of mental health of adults, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-2</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of adults, at least once per year</dc:title>
@@ -5609,7 +5657,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of mental health of adults, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-3</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of adults, on indication</dc:title>
@@ -5623,7 +5671,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of mental health of families, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-4</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of families, at every clinic</dc:title>
@@ -5637,7 +5685,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of mental health of families, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-5</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of families, at least once per year</dc:title>
@@ -5651,7 +5699,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of mental health of families, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-6</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of families, on indication</dc:title>
@@ -5665,7 +5713,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of quality of life of adults, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-7</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of adults, at every clinic</dc:title>
@@ -5679,7 +5727,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of quality of life of adults, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-8</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of adults, at least once per year</dc:title>
@@ -5693,7 +5741,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16"/>
         <dc:description xml:lang="en">Assessment of quality of life of adults, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16-9</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of adults, on indication</dc:title>
@@ -5704,10 +5752,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN17</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17</dc:identifier>
+        <dc:title xml:lang="en">PAQAN17</dc:title>
+        <rdfs:label xml:lang="en">PAQAN17</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for adults, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-1</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for adults, in the applying center</dc:title>
@@ -5721,7 +5781,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-10</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, in shared care</dc:title>
@@ -5735,7 +5795,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-11</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, no</dc:title>
@@ -5749,7 +5809,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-12</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, on indication</dc:title>
@@ -5763,7 +5823,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-13 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-13">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-13</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, in the applying center</dc:title>
@@ -5777,7 +5837,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-14 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-14">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-14</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, in shared care</dc:title>
@@ -5791,7 +5851,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-15 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-15">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-15</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, no</dc:title>
@@ -5805,7 +5865,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-16 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-16">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-16</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, on indication</dc:title>
@@ -5819,7 +5879,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-17 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-17">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-17</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, in the applying center</dc:title>
@@ -5833,7 +5893,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-18 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-18">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-18</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, in shared care</dc:title>
@@ -5847,7 +5907,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-19 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-19">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-19</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, no</dc:title>
@@ -5861,7 +5921,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for adults, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-2</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for adults, in shared care</dc:title>
@@ -5875,7 +5935,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-20 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-20">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-20</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, on indication</dc:title>
@@ -5889,7 +5949,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-21">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-21</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, in the applying center</dc:title>
@@ -5903,7 +5963,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-22 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-22">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-22</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, in shared care</dc:title>
@@ -5917,7 +5977,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-23 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-23">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-23</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, no</dc:title>
@@ -5931,7 +5991,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-24 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-24">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-24</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, on indication</dc:title>
@@ -5945,7 +6005,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-25 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-25">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-25</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, in the applying center</dc:title>
@@ -5959,7 +6019,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-26 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-26">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-26</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, in shared care</dc:title>
@@ -5973,7 +6033,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-27 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-27">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-27</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, no</dc:title>
@@ -5987,7 +6047,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-28 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-28">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-28</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, on indication</dc:title>
@@ -6001,7 +6061,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-29 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-29">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-29</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, in the applying center</dc:title>
@@ -6015,7 +6075,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for adults, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-3</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for adults, no</dc:title>
@@ -6029,7 +6089,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-30 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-30">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-30</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, in shared care</dc:title>
@@ -6043,7 +6103,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-31 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-31">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-31</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, no</dc:title>
@@ -6057,7 +6117,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-32 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-32">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-32</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, on indication</dc:title>
@@ -6071,7 +6131,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for adults, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-4</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for adults, on indication</dc:title>
@@ -6085,7 +6145,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for families, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-5</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, in the applying center</dc:title>
@@ -6099,7 +6159,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for families, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-6</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, in shared care</dc:title>
@@ -6113,7 +6173,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for families, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-7</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, no</dc:title>
@@ -6127,7 +6187,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Ongoing mental support for families, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-8</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, on indication</dc:title>
@@ -6141,7 +6201,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17-9</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, in the applying center</dc:title>
@@ -6152,10 +6212,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN18</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18</dc:identifier>
+        <dc:title xml:lang="en">PAQAN18</dc:title>
+        <rdfs:label xml:lang="en">PAQAN18</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18"/>
         <dc:description xml:lang="en">Airway (mouth opening)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-1</dc:identifier>
         <dc:title xml:lang="en">Airway (mouth opening)</dc:title>
@@ -6169,7 +6241,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18"/>
         <dc:description xml:lang="en">Cardiac status (echo/cMRI)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-2</dc:identifier>
         <dc:title xml:lang="en">Cardiac status (echo/cMRI)</dc:title>
@@ -6183,7 +6255,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18"/>
         <dc:description xml:lang="en">Respiratory status</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-3</dc:identifier>
         <dc:title xml:lang="en">Respiratory status</dc:title>
@@ -6197,7 +6269,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18"/>
         <dc:description xml:lang="en">Other</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18-4</dc:identifier>
         <dc:title xml:lang="en">Other</dc:title>
@@ -6248,10 +6320,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN3</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3</dc:identifier>
+        <dc:title xml:lang="en">PAQAN3</dc:title>
+        <rdfs:label xml:lang="en">PAQAN3</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3"/>
         <dc:description xml:lang="en">The care plan</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-1</dc:identifier>
         <dc:title xml:lang="en">The care plan</dc:title>
@@ -6265,7 +6349,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3"/>
         <dc:description xml:lang="en">Coordination</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-2</dc:identifier>
         <dc:title xml:lang="en">Coordination</dc:title>
@@ -6279,7 +6363,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3"/>
         <dc:description xml:lang="en">Communication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-3</dc:identifier>
         <dc:title xml:lang="en">Communication</dc:title>
@@ -6293,7 +6377,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3"/>
         <dc:description xml:lang="en">Documentation</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-4</dc:identifier>
         <dc:title xml:lang="en">Documentation</dc:title>
@@ -6307,7 +6391,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3"/>
         <dc:description xml:lang="en">Collaboration</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-5</dc:identifier>
         <dc:title xml:lang="en">Collaboration</dc:title>
@@ -6321,7 +6405,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3"/>
         <dc:description xml:lang="en">Not applicable</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3-6</dc:identifier>
         <dc:title xml:lang="en">Not applicable</dc:title>
@@ -6332,10 +6416,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN4</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4</dc:identifier>
+        <dc:title xml:lang="en">PAQAN4</dc:title>
+        <rdfs:label xml:lang="en">PAQAN4</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Rehabilitation physician, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-1</dc:identifier>
         <dc:title xml:lang="en">Rehabilitation physician, in the applying center</dc:title>
@@ -6349,7 +6445,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Respiratory physician, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-10</dc:identifier>
         <dc:title xml:lang="en">Respiratory physician, in the applying center</dc:title>
@@ -6363,7 +6459,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Respiratory physician, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-11</dc:identifier>
         <dc:title xml:lang="en">Respiratory physician, in shared care</dc:title>
@@ -6377,7 +6473,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No respiratory physician</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-12</dc:identifier>
         <dc:title xml:lang="en">No respiratory physician</dc:title>
@@ -6391,7 +6487,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-13 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-13">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Physical therapist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-13</dc:identifier>
         <dc:title xml:lang="en">Physical therapist, in the applying center</dc:title>
@@ -6405,7 +6501,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-14 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-14">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Physical therapist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-14</dc:identifier>
         <dc:title xml:lang="en">Physical therapist, in shared care</dc:title>
@@ -6419,7 +6515,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-15 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-15">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No physicial therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-15</dc:identifier>
         <dc:title xml:lang="en">No physicial therapist</dc:title>
@@ -6433,7 +6529,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-16 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-16">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Occupational therapist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-16</dc:identifier>
         <dc:title xml:lang="en">Occupational therapist, in the applying center</dc:title>
@@ -6447,7 +6543,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-17 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-17">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Occupational therapist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-17</dc:identifier>
         <dc:title xml:lang="en">Occupational therapist, in shared care</dc:title>
@@ -6461,7 +6557,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-18 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-18">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No occupational therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-18</dc:identifier>
         <dc:title xml:lang="en">No occupational therapist</dc:title>
@@ -6475,7 +6571,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-19 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-19">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Speech and language therapist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-19</dc:identifier>
         <dc:title xml:lang="en">Speech and language therapist, in the applying center</dc:title>
@@ -6489,7 +6585,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Rehabilitation physician, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-2</dc:identifier>
         <dc:title xml:lang="en">Rehabilitation physician, in shared care</dc:title>
@@ -6503,7 +6599,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-20 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-20">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Speech and language therapist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-20</dc:identifier>
         <dc:title xml:lang="en">Speech and language therapist, in shared care</dc:title>
@@ -6517,7 +6613,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-21">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No speech and language therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-21</dc:identifier>
         <dc:title xml:lang="en">No speech and language therapist</dc:title>
@@ -6531,7 +6627,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-22 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-22">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Dietitian, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-22</dc:identifier>
         <dc:title xml:lang="en">Dietitian, in the applying center</dc:title>
@@ -6545,7 +6641,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-23 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-23">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Dietitian, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-23</dc:identifier>
         <dc:title xml:lang="en">Dietitian, in shared care</dc:title>
@@ -6559,7 +6655,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-24 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-24">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No dietitian</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-24</dc:identifier>
         <dc:title xml:lang="en">No dietitian</dc:title>
@@ -6573,7 +6669,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-25 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-25">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">(Clinical neuro)psychologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-25</dc:identifier>
         <dc:title xml:lang="en">(Clinical neuro)psychologist, in the applying center</dc:title>
@@ -6587,7 +6683,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-26 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-26">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">(Clinical neuro)psychologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-26</dc:identifier>
         <dc:title xml:lang="en">(Clinical neuro)psychologist, in shared care</dc:title>
@@ -6601,7 +6697,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-27 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-27">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No (clinical neuro)psychologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-27</dc:identifier>
         <dc:title xml:lang="en">No (clinical neuro)psychologist</dc:title>
@@ -6615,7 +6711,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-28 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-28">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Gastroenterologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-28</dc:identifier>
         <dc:title xml:lang="en">Gastroenterologist, in the applying center</dc:title>
@@ -6629,7 +6725,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-29 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-29">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Gastroenterologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-29</dc:identifier>
         <dc:title xml:lang="en">Gastroenterologist, in shared care</dc:title>
@@ -6643,7 +6739,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No rehabilitation physician</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-3</dc:identifier>
         <dc:title xml:lang="en">No rehabilitation physician</dc:title>
@@ -6657,7 +6753,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-30 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-30">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No gastroenterologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-30</dc:identifier>
         <dc:title xml:lang="en">No gastroenterologist</dc:title>
@@ -6671,7 +6767,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Neurologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-4</dc:identifier>
         <dc:title xml:lang="en">Neurologist, in the applying center</dc:title>
@@ -6685,7 +6781,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Neurologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-5</dc:identifier>
         <dc:title xml:lang="en">Neurologist, in shared care</dc:title>
@@ -6699,7 +6795,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No neurologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-6</dc:identifier>
         <dc:title xml:lang="en">No neurologist</dc:title>
@@ -6713,7 +6809,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Cardiologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-7</dc:identifier>
         <dc:title xml:lang="en">Cardiologist, in the applying center</dc:title>
@@ -6727,7 +6823,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">Cardiologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-8</dc:identifier>
         <dc:title xml:lang="en">Cardiologist, in shared care</dc:title>
@@ -6741,7 +6837,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4"/>
         <dc:description xml:lang="en">No cardiologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4-9</dc:identifier>
         <dc:title xml:lang="en">No cardiologist</dc:title>
@@ -8382,10 +8478,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN15</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15</dc:identifier>
+        <dc:title xml:lang="en">PCQAN15</dc:title>
+        <rdfs:label xml:lang="en">PCQAN15</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of mental health of children, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-1</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of children, at every clinic</dc:title>
@@ -8399,7 +8507,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of quality of life of families, at evert clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-10</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of families, at evert clinic</dc:title>
@@ -8413,7 +8521,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of quality of life of families, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-11</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of families, at least once per year</dc:title>
@@ -8427,7 +8535,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of quality of life of families, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-12</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of families, on indication</dc:title>
@@ -8441,7 +8549,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of mental health of children, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-2</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of children, at least once per year</dc:title>
@@ -8455,7 +8563,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of mental health of children, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-3</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of children, on indication</dc:title>
@@ -8469,7 +8577,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of mental health of families, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-4</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of families, at every clinic</dc:title>
@@ -8483,7 +8591,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of mental health of families, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-5</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of families, at least once per year</dc:title>
@@ -8497,7 +8605,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of mental health of families, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-6</dc:identifier>
         <dc:title xml:lang="en">Assessment of mental health of families, on indication</dc:title>
@@ -8511,7 +8619,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of quality of life of children, at every clinic</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-7</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of children, at every clinic</dc:title>
@@ -8525,7 +8633,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of quality of life of children, at least once per year</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-8</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of children, at least once per year</dc:title>
@@ -8539,7 +8647,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15"/>
         <dc:description xml:lang="en">Assessment of quality of life of children, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15-9</dc:identifier>
         <dc:title xml:lang="en">Assessment of quality of life of children, on indication</dc:title>
@@ -8550,10 +8658,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN16</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16</dc:identifier>
+        <dc:title xml:lang="en">PCQAN16</dc:title>
+        <rdfs:label xml:lang="en">PCQAN16</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for children, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-1</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for children, in the applying center</dc:title>
@@ -8567,7 +8687,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-10</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, in shared care</dc:title>
@@ -8581,7 +8701,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-11</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, no</dc:title>
@@ -8595,7 +8715,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-12</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, on indication</dc:title>
@@ -8609,7 +8729,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-13 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-13">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-13</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, in the applying center</dc:title>
@@ -8623,7 +8743,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-14 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-14">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-14</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, in shared care</dc:title>
@@ -8637,7 +8757,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-15 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-15">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-15</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, no</dc:title>
@@ -8651,7 +8771,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-16 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-16">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for emotional problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-16</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for emotional problems, on indication</dc:title>
@@ -8665,7 +8785,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-17 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-17">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-17</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, in the applying center</dc:title>
@@ -8679,7 +8799,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-18 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-18">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-18</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, in shared care</dc:title>
@@ -8693,7 +8813,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-19 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-19">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-19</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, no</dc:title>
@@ -8707,7 +8827,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for children, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-2</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for children, in shared care</dc:title>
@@ -8721,7 +8841,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-20 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-20">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evalution for behavioral problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-20</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evalution for behavioral problems, on indication</dc:title>
@@ -8735,7 +8855,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-21">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-21</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, in the applying center</dc:title>
@@ -8749,7 +8869,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-22 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-22">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-22</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, in shared care</dc:title>
@@ -8763,7 +8883,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-23 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-23">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-23</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, no</dc:title>
@@ -8777,7 +8897,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-24 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-24">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for learning problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-24</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for learning problems, on indication</dc:title>
@@ -8791,7 +8911,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-25 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-25">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-25</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, in the applying center</dc:title>
@@ -8805,7 +8925,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-26 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-26">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-26</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, in shared care</dc:title>
@@ -8819,7 +8939,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-27 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-27">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-27</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, no</dc:title>
@@ -8833,7 +8953,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-28 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-28">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for emotional problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-28</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for emotional problems, on indication</dc:title>
@@ -8847,7 +8967,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-29 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-29">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-29</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, in the applying center</dc:title>
@@ -8861,7 +8981,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for children, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-3</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for children, no</dc:title>
@@ -8875,7 +8995,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-30 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-30">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-30</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, in shared care</dc:title>
@@ -8889,7 +9009,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-31 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-31">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-31</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, no</dc:title>
@@ -8903,7 +9023,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-32 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-32">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological interventions for behavioral problems, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-32</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological interventions for behavioral problems, on indication</dc:title>
@@ -8917,7 +9037,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for children, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-4</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for children, on indication</dc:title>
@@ -8931,7 +9051,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for families, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-5</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, in the applying center</dc:title>
@@ -8945,7 +9065,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for families, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-6</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, in shared care</dc:title>
@@ -8959,7 +9079,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for families, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-7</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, no</dc:title>
@@ -8973,7 +9093,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Ongoing mental support for families, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-8</dc:identifier>
         <dc:title xml:lang="en">Ongoing mental support for families, on indication</dc:title>
@@ -8987,7 +9107,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16"/>
         <dc:description xml:lang="en">Neuropsychological evaluation for learning problems, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16-9</dc:identifier>
         <dc:title xml:lang="en">Neuropsychological evaluation for learning problems, in the applying center</dc:title>
@@ -8998,10 +9118,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN17</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17</dc:identifier>
+        <dc:title xml:lang="en">PCQAN17</dc:title>
+        <rdfs:label xml:lang="en">PCQAN17</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17"/>
         <dc:description xml:lang="en">Airway (mouth opening)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-1</dc:identifier>
         <dc:title xml:lang="en">Airway (mouth opening)</dc:title>
@@ -9015,7 +9147,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17"/>
         <dc:description xml:lang="en">Cardiac status (echo/cMRI)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-2</dc:identifier>
         <dc:title xml:lang="en">Cardiac status (echo/cMRI)</dc:title>
@@ -9029,7 +9161,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17"/>
         <dc:description xml:lang="en">Respiratory status</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-3</dc:identifier>
         <dc:title xml:lang="en">Respiratory status</dc:title>
@@ -9043,7 +9175,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17"/>
         <dc:description xml:lang="en">Other</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17-4</dc:identifier>
         <dc:title xml:lang="en">Other</dc:title>
@@ -9094,10 +9226,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN3</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3</dc:identifier>
+        <dc:title xml:lang="en">PCQAN3</dc:title>
+        <rdfs:label xml:lang="en">PCQAN3</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3"/>
         <dc:description xml:lang="en">The care plan</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-1</dc:identifier>
         <dc:title xml:lang="en">The care plan</dc:title>
@@ -9111,7 +9255,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3"/>
         <dc:description xml:lang="en">Coordination</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-2</dc:identifier>
         <dc:title xml:lang="en">Coordination</dc:title>
@@ -9125,7 +9269,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3"/>
         <dc:description xml:lang="en">Communication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-3</dc:identifier>
         <dc:title xml:lang="en">Communication</dc:title>
@@ -9139,7 +9283,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3"/>
         <dc:description xml:lang="en">Documentation</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-4</dc:identifier>
         <dc:title xml:lang="en">Documentation</dc:title>
@@ -9153,7 +9297,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3"/>
         <dc:description xml:lang="en">Collaboration</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-5</dc:identifier>
         <dc:title xml:lang="en">Collaboration</dc:title>
@@ -9167,7 +9311,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3"/>
         <dc:description xml:lang="en">Not applicable</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3-6</dc:identifier>
         <dc:title xml:lang="en">Not applicable</dc:title>
@@ -9178,10 +9322,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN4</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4</dc:identifier>
+        <dc:title xml:lang="en">PCQAN4</dc:title>
+        <rdfs:label xml:lang="en">PCQAN4</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Rehabilitation physician, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-1</dc:identifier>
         <dc:title xml:lang="en">Rehabilitation physician, in the applying center</dc:title>
@@ -9195,7 +9351,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Respiratory physician, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-10</dc:identifier>
         <dc:title xml:lang="en">Respiratory physician, in the applying center</dc:title>
@@ -9209,7 +9365,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Respiratory physician, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-11</dc:identifier>
         <dc:title xml:lang="en">Respiratory physician, in shared care</dc:title>
@@ -9223,7 +9379,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No respiratory physician</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-12</dc:identifier>
         <dc:title xml:lang="en">No respiratory physician</dc:title>
@@ -9237,7 +9393,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-13 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-13">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Physical therapist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-13</dc:identifier>
         <dc:title xml:lang="en">Physical therapist, in the applying center</dc:title>
@@ -9251,7 +9407,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-14 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-14">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Physical therapist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-14</dc:identifier>
         <dc:title xml:lang="en">Physical therapist, in shared care</dc:title>
@@ -9265,7 +9421,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-15 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-15">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No physicial therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-15</dc:identifier>
         <dc:title xml:lang="en">No physicial therapist</dc:title>
@@ -9279,7 +9435,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-16 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-16">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Occupational therapist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-16</dc:identifier>
         <dc:title xml:lang="en">Occupational therapist, in the applying center</dc:title>
@@ -9293,7 +9449,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-17 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-17">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Occupational therapist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-17</dc:identifier>
         <dc:title xml:lang="en">Occupational therapist, in shared care</dc:title>
@@ -9307,7 +9463,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-18 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-18">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No occupational therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-18</dc:identifier>
         <dc:title xml:lang="en">No occupational therapist</dc:title>
@@ -9321,7 +9477,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-19 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-19">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Speech and language therapist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-19</dc:identifier>
         <dc:title xml:lang="en">Speech and language therapist, in the applying center</dc:title>
@@ -9335,7 +9491,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Rehabilitation physician, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-2</dc:identifier>
         <dc:title xml:lang="en">Rehabilitation physician, in shared care</dc:title>
@@ -9349,7 +9505,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-20 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-20">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Speech and language therapist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-20</dc:identifier>
         <dc:title xml:lang="en">Speech and language therapist, in shared care</dc:title>
@@ -9363,7 +9519,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-21">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No speech and language therapist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-21</dc:identifier>
         <dc:title xml:lang="en">No speech and language therapist</dc:title>
@@ -9377,7 +9533,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-22 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-22">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Dietitian, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-22</dc:identifier>
         <dc:title xml:lang="en">Dietitian, in the applying center</dc:title>
@@ -9391,7 +9547,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-23 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-23">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Dietitian, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-23</dc:identifier>
         <dc:title xml:lang="en">Dietitian, in shared care</dc:title>
@@ -9405,7 +9561,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-24 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-24">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No dietitian</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-24</dc:identifier>
         <dc:title xml:lang="en">No dietitian</dc:title>
@@ -9419,7 +9575,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-25 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-25">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">(Clinical neuro)psychologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-25</dc:identifier>
         <dc:title xml:lang="en">(Clinical neuro)psychologist, in the applying center</dc:title>
@@ -9433,7 +9589,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-26 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-26">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">(Clinical neuro)psychologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-26</dc:identifier>
         <dc:title xml:lang="en">(Clinical neuro)psychologist, in shared care</dc:title>
@@ -9447,7 +9603,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-27 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-27">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No (clinical neuro)psychologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-27</dc:identifier>
         <dc:title xml:lang="en">No (clinical neuro)psychologist</dc:title>
@@ -9461,7 +9617,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No rehabilitation physician</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-3</dc:identifier>
         <dc:title xml:lang="en">No rehabilitation physician</dc:title>
@@ -9475,7 +9631,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Neurologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-4</dc:identifier>
         <dc:title xml:lang="en">Neurologist, in the applying center</dc:title>
@@ -9489,7 +9645,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Neurologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-5</dc:identifier>
         <dc:title xml:lang="en">Neurologist, in shared care</dc:title>
@@ -9503,7 +9659,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No neurologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-6</dc:identifier>
         <dc:title xml:lang="en">No neurologist</dc:title>
@@ -9517,7 +9673,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Cardiologist, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-7</dc:identifier>
         <dc:title xml:lang="en">Cardiologist, in the applying center</dc:title>
@@ -9531,7 +9687,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">Cardiologist, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-8</dc:identifier>
         <dc:title xml:lang="en">Cardiologist, in shared care</dc:title>
@@ -9545,7 +9701,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4"/>
         <dc:description xml:lang="en">No cardiologist</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4-9</dc:identifier>
         <dc:title xml:lang="en">No cardiologist</dc:title>
@@ -9556,10 +9712,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN5</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5</dc:identifier>
+        <dc:title xml:lang="en">PCQAN5</dc:title>
+        <rdfs:label xml:lang="en">PCQAN5</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5"/>
         <dc:description xml:lang="en">Genetic analysis</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-1</dc:identifier>
         <dc:title xml:lang="en">Genetic analysis</dc:title>
@@ -9573,7 +9741,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5"/>
         <dc:description xml:lang="en">- Muscle biopsy</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-2</dc:identifier>
         <dc:title xml:lang="en">- Muscle biopsy</dc:title>
@@ -9587,7 +9755,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5"/>
         <dc:description xml:lang="en">- Other:…..</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-3</dc:identifier>
         <dc:title xml:lang="en">- Other:…..</dc:title>
@@ -9760,10 +9928,22 @@
     
 
 
+    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9 -->
+
+    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9">
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
+        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN9</dc:description>
+        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9</dc:identifier>
+        <dc:title xml:lang="en">PCQAN9</dc:title>
+        <rdfs:label xml:lang="en">PCQAN9</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-1 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Lung volume recruitment, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-1</dc:identifier>
         <dc:title xml:lang="en">Lung volume recruitment, in the applying center</dc:title>
@@ -9777,7 +9957,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-10 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-10">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Influenza vaccine, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-10</dc:identifier>
         <dc:title xml:lang="en">Influenza vaccine, in shared care</dc:title>
@@ -9791,7 +9971,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-11">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Influenza vaccine, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-11</dc:identifier>
         <dc:title xml:lang="en">Influenza vaccine, no</dc:title>
@@ -9805,7 +9985,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-12 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-12">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Influenza vaccine, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-12</dc:identifier>
         <dc:title xml:lang="en">Influenza vaccine, on indication</dc:title>
@@ -9819,7 +9999,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-13 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-13">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Covid vaccine, in the appying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-13</dc:identifier>
         <dc:title xml:lang="en">Covid vaccine, in the appying center</dc:title>
@@ -9833,7 +10013,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-14 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-14">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Covid vaccine, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-14</dc:identifier>
         <dc:title xml:lang="en">Covid vaccine, in shared care</dc:title>
@@ -9847,7 +10027,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-15 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-15">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Covid vaccine, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-15</dc:identifier>
         <dc:title xml:lang="en">Covid vaccine, no</dc:title>
@@ -9861,7 +10041,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-16 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-16">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Covid vaccine, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-16</dc:identifier>
         <dc:title xml:lang="en">Covid vaccine, on indication</dc:title>
@@ -9875,7 +10055,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-17 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-17">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Pneumococcal vacinne, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-17</dc:identifier>
         <dc:title xml:lang="en">Pneumococcal vacinne, in the applying center</dc:title>
@@ -9889,7 +10069,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-18 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-18">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Pneumococcal vaccine, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-18</dc:identifier>
         <dc:title xml:lang="en">Pneumococcal vaccine, in shared care</dc:title>
@@ -9903,7 +10083,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-19 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-19">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Pneumococcal vaccine, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-19</dc:identifier>
         <dc:title xml:lang="en">Pneumococcal vaccine, no</dc:title>
@@ -9917,7 +10097,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-2 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Lung volume recruitment, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-2</dc:identifier>
         <dc:title xml:lang="en">Lung volume recruitment, in shared care</dc:title>
@@ -9931,7 +10111,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-20 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-20">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Pneumococcal vaccine, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-20</dc:identifier>
         <dc:title xml:lang="en">Pneumococcal vaccine, on indication</dc:title>
@@ -9945,7 +10125,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-3 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Lung volume recruitment, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-3</dc:identifier>
         <dc:title xml:lang="en">Lung volume recruitment, no</dc:title>
@@ -9959,7 +10139,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-4 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Lung volume recruitment, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-4</dc:identifier>
         <dc:title xml:lang="en">Lung volume recruitment, on indication</dc:title>
@@ -9973,7 +10153,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-5 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Nocturnal ventilation, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-5</dc:identifier>
         <dc:title xml:lang="en">Nocturnal ventilation, in the applying center</dc:title>
@@ -9987,7 +10167,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-6 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-6">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Nocturnal ventilation, in shared care</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-6</dc:identifier>
         <dc:title xml:lang="en">Nocturnal ventilation, in shared care</dc:title>
@@ -10001,7 +10181,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-7 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-7">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Nocturnal ventilation, no</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-7</dc:identifier>
         <dc:title xml:lang="en">Nocturnal ventilation, no</dc:title>
@@ -10015,7 +10195,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Nocturnal ventiulation, on indication</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-8</dc:identifier>
         <dc:title xml:lang="en">Nocturnal ventiulation, on indication</dc:title>
@@ -10029,7 +10209,7 @@
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-9">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)"/>
+        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9"/>
         <dc:description xml:lang="en">Influenza vaccine, in the applying center</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9-9</dc:identifier>
         <dc:title xml:lang="en">Influenza vaccine, in the applying center</dc:title>
@@ -12567,186 +12747,6 @@
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC9</dc:identifier>
         <dc:title xml:lang="en">Cardiac management</dc:title>
         <rdfs:label xml:lang="en">Cardiac management</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: FCQAN4 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN4 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">FCQAN4 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">FCQAN4 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN10 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN10 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN10 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN15 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN15 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN15 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN16 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN16 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN16 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN16 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN17 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN17 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN17 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN17 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN18 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN18 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN18 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN18 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN3 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN3 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN3 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4%20(multiple%20answers%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PAQAN4 (multiple answers possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4 (multiple answers possible)</dc:identifier>
-        <dc:title xml:lang="en">PAQAN4 (multiple answers possible)</dc:title>
-        <rdfs:label xml:lang="en">PAQAN4 (multiple answers possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN15 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN15 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN15 (multiple options possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN16 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN16 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN16 (multiple options possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN17 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN17 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN17 (multiple options possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN3 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN3 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN3 (multiple options possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN4 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN4 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN4 (multiple options possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN5 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN5 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN5 (multiple options possible)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible) -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9%20(multiple%20options%20possible)">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#ANSW0"/>
-        <dc:description xml:lang="en">Questionnaire answer block from the Accredited Duchenne Centers Evaluation: PCQAN9 (multiple options possible)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9 (multiple options possible)</dc:identifier>
-        <dc:title xml:lang="en">PCQAN9 (multiple options possible)</dc:title>
-        <rdfs:label xml:lang="en">PCQAN9 (multiple options possible)</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
