@@ -5128,10 +5128,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQA9">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA1"/>
-        <dc:description xml:lang="en">Is there a dedicated person adult DMD patients and their families to contact? </dc:description>
+        <dc:description xml:lang="en">Is there a dedicated person for adult DMD patients and their families to contact? </dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQA9</dc:identifier>
-        <dc:title xml:lang="en">Is there a dedicated person adult DMD patients and their families to contact? </dc:title>
-        <rdfs:label xml:lang="en">Is there a dedicated person adult DMD patients and their families to contact? </rdfs:label>
+        <dc:title xml:lang="en">Is there a dedicated person for adult DMD patients and their families to contact? </dc:title>
+        <rdfs:label xml:lang="en">Is there a dedicated person for adult DMD patients and their families to contact? </rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN5</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
     </owl:Class>
@@ -7052,10 +7052,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQB1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA2"/>
-        <dc:description xml:lang="en">Is continuation of glucocorticoids advised if evidence for benefits outweighs risk in adult DMD patients? (PAQB1)</dc:description>
+        <dc:description xml:lang="en">Is continuation of glucocorticoids advised if evidence for benefits outweighs risk in adult DMD patients?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQB1</dc:identifier>
-        <dc:title xml:lang="en">Is continuation of glucocorticoids advised if evidence for benefits outweighs risk in adult DMD patients? (PAQB1)</dc:title>
-        <rdfs:label xml:lang="en">Is continuation of glucocorticoids advised if evidence for benefits outweighs risk in adult DMD patients? (PAQB1)</rdfs:label>
+        <dc:title xml:lang="en">Is continuation of glucocorticoids advised if evidence for benefits outweighs risk in adult DMD patients?</dc:title>
+        <rdfs:label xml:lang="en">Is continuation of glucocorticoids advised if evidence for benefits outweighs risk in adult DMD patients?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7122,10 +7122,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQC2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA3"/>
-        <dc:description xml:lang="en">What is the average frequency that adult DMD patients have contact with the rehabilitation specialist in your center (or in shared care)? (PAQC2)</dc:description>
+        <dc:description xml:lang="en">What is the average frequency that adult DMD patients have contact with the rehabilitation specialist in your center (or in shared care)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQC2</dc:identifier>
-        <dc:title xml:lang="en">What is the average frequency that adult DMD patients have contact with the rehabilitation specialist in your center (or in shared care)? (PAQC2)</dc:title>
-        <rdfs:label xml:lang="en">What is the average frequency that adult DMD patients have contact with the rehabilitation specialist in your center (or in shared care)? (PAQC2)</rdfs:label>
+        <dc:title xml:lang="en">What is the average frequency that adult DMD patients have contact with the rehabilitation specialist in your center (or in shared care)?</dc:title>
+        <rdfs:label xml:lang="en">What is the average frequency that adult DMD patients have contact with the rehabilitation specialist in your center (or in shared care)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN8</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
@@ -7150,10 +7150,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQD1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA4"/>
-        <dc:description xml:lang="en">Are adult DMD patients treated with glucocorticoids educated on adrenal crisis and stress dose prescription? (PAQD1)</dc:description>
+        <dc:description xml:lang="en">Are adult DMD patients treated with glucocorticoids educated on adrenal crisis and stress dose prescription?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQD1</dc:identifier>
-        <dc:title xml:lang="en">Are adult DMD patients treated with glucocorticoids educated on adrenal crisis and stress dose prescription? (PAQD1)</dc:title>
-        <rdfs:label xml:lang="en">Are adult DMD patients treated with glucocorticoids educated on adrenal crisis and stress dose prescription? (PAQD1)</rdfs:label>
+        <dc:title xml:lang="en">Are adult DMD patients treated with glucocorticoids educated on adrenal crisis and stress dose prescription?</dc:title>
+        <rdfs:label xml:lang="en">Are adult DMD patients treated with glucocorticoids educated on adrenal crisis and stress dose prescription?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7290,10 +7290,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQF3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA6"/>
-        <dc:description xml:lang="en">Does your multidisciplinary team have access advice from a nephrologist?</dc:description>
+        <dc:description xml:lang="en">Does your multidisciplinary team have access to advice from a nephrologist?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQF3</dc:identifier>
-        <dc:title xml:lang="en">Does your multidisciplinary team have access advice from a nephrologist?</dc:title>
-        <rdfs:label xml:lang="en">Does your multidisciplinary team have access advice from a nephrologist?</rdfs:label>
+        <dc:title xml:lang="en">Does your multidisciplinary team have access to advice from a nephrologist?</dc:title>
+        <rdfs:label xml:lang="en">Does your multidisciplinary team have access to advice from a nephrologist?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQF3</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
@@ -7374,10 +7374,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG4">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA7"/>
-        <dc:description xml:lang="en">Do adult DMD patient have a respiratory care plan for respiratory illness and emergencies?</dc:description>
+        <dc:description xml:lang="en">Do adult DMD patients have a respiratory care plan for respiratory illness and emergencies?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG4</dc:identifier>
-        <dc:title xml:lang="en">Do adult DMD patient have a respiratory care plan for respiratory illness and emergencies?</dc:title>
-        <rdfs:label xml:lang="en">Do adult DMD patient have a respiratory care plan for respiratory illness and emergencies?</rdfs:label>
+        <dc:title xml:lang="en">Do adult DMD patients have a respiratory care plan for respiratory illness and emergencies?</dc:title>
+        <rdfs:label xml:lang="en">Do adult DMD patients have a respiratory care plan for respiratory illness and emergencies?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
     </owl:Class>
@@ -7654,10 +7654,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA11"/>
-        <dc:description xml:lang="en">Which of the of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</dc:description>
+        <dc:description xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1</dc:identifier>
-        <dc:title xml:lang="en">Which of the of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</dc:title>
-        <rdfs:label xml:lang="en">Which of the of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</rdfs:label>
+        <dc:title xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</dc:title>
+        <rdfs:label xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -8063,20 +8063,6 @@
         <dc:title xml:lang="en">No</dc:title>
         <rdfs:label xml:lang="en">No</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
-        <local:widget>radio</local:widget>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1-3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1"/>
-        <dc:description xml:lang="en">Comment</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1-3</dc:identifier>
-        <dc:title xml:lang="en">Comment</dc:title>
-        <rdfs:label xml:lang="en">Comment</rdfs:label>
-        <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
     
@@ -11710,8 +11696,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRA2</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA2</dc:identifier>
-        <dc:title xml:lang="en">Neuromuscular mangement</dc:title>
-        <rdfs:label xml:lang="en">Neuromuscular mangement</rdfs:label>
+        <dc:title xml:lang="en">Neuromuscular management</dc:title>
+        <rdfs:label xml:lang="en">Neuromuscular management</rdfs:label>
     </owl:Class>
     
 
@@ -11734,8 +11720,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRA4</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA4</dc:identifier>
-        <dc:title xml:lang="en">Endocrine mangement</dc:title>
-        <rdfs:label xml:lang="en">Endocrine mangement</rdfs:label>
+        <dc:title xml:lang="en">Endocrine management</dc:title>
+        <rdfs:label xml:lang="en">Endocrine management</rdfs:label>
     </owl:Class>
     
 
@@ -11758,8 +11744,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRA6</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA6</dc:identifier>
-        <dc:title xml:lang="en">Renal and blader manangement</dc:title>
-        <rdfs:label xml:lang="en">Renal and blader manangement</rdfs:label>
+        <dc:title xml:lang="en">Renal and bladder management</dc:title>
+        <rdfs:label xml:lang="en">Renal and bladder management</rdfs:label>
     </owl:Class>
     
 
