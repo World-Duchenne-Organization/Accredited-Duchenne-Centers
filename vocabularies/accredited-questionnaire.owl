@@ -999,7 +999,7 @@
         <dc:title xml:lang="en">Rehabilitation physician</dc:title>
         <rdfs:label xml:lang="en">Rehabilitation physician</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1013,7 +1013,7 @@
         <dc:title xml:lang="en">Neurologist</dc:title>
         <rdfs:label xml:lang="en">Neurologist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1027,7 +1027,7 @@
         <dc:title xml:lang="en">Cardiologist</dc:title>
         <rdfs:label xml:lang="en">Cardiologist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1041,7 +1041,7 @@
         <dc:title xml:lang="en">Respiratory physician</dc:title>
         <rdfs:label xml:lang="en">Respiratory physician</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1055,7 +1055,7 @@
         <dc:title xml:lang="en">Physical therapist</dc:title>
         <rdfs:label xml:lang="en">Physical therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1069,7 +1069,7 @@
         <dc:title xml:lang="en">Occupational therapist</dc:title>
         <rdfs:label xml:lang="en">Occupational therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1083,7 +1083,7 @@
         <dc:title xml:lang="en">Speech and language therapist</dc:title>
         <rdfs:label xml:lang="en">Speech and language therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1097,7 +1097,7 @@
         <dc:title xml:lang="en">Dietitian</dc:title>
         <rdfs:label xml:lang="en">Dietitian</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1111,7 +1111,7 @@
         <dc:title xml:lang="en">Clinical neuropsychologist</dc:title>
         <rdfs:label xml:lang="en">Clinical neuropsychologist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1264,20 +1264,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN8-3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN8-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN8"/>
-        <dc:description xml:lang="en">Comment</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN8-3</dc:identifier>
-        <dc:title xml:lang="en">Comment</dc:title>
-        <rdfs:label xml:lang="en">Comment</rdfs:label>
-        <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
-        <local:widget>radio</local:widget>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN9 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN9">
@@ -1299,7 +1285,7 @@
         <dc:title xml:lang="en">Local physiotherapist</dc:title>
         <rdfs:label xml:lang="en">Local physiotherapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1313,7 +1299,7 @@
         <dc:title xml:lang="en">Local occupational therapist</dc:title>
         <rdfs:label xml:lang="en">Local occupational therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1327,7 +1313,7 @@
         <dc:title xml:lang="en">Local speech and language therapist</dc:title>
         <rdfs:label xml:lang="en">Local speech and language therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1341,7 +1327,7 @@
         <dc:title xml:lang="en">Local dietitian</dc:title>
         <rdfs:label xml:lang="en">Local dietitian</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1355,7 +1341,7 @@
         <dc:title xml:lang="en">Local social worker</dc:title>
         <rdfs:label xml:lang="en">Local social worker</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1369,7 +1355,7 @@
         <dc:title xml:lang="en">Local psychologist</dc:title>
         <rdfs:label xml:lang="en">Local psychologist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1383,7 +1369,7 @@
         <dc:title xml:lang="en">Other</dc:title>
         <rdfs:label xml:lang="en">Other</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1397,7 +1383,7 @@
         <dc:title xml:lang="en">Not applicable</dc:title>
         <rdfs:label xml:lang="en">Not applicable</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -1518,10 +1504,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQB8">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA2"/>
-        <dc:description xml:lang="en">What are you satisfied with (with the collaboration between the clinicians within your hospital)?</dc:description>
+        <dc:description xml:lang="en">What are you satisfied with regarding the collaboration between your hospital (Duchenne expert center) and care closer to home?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQB8</dc:identifier>
-        <dc:title xml:lang="en">What are you satisfied with (with the collaboration between the clinicians within your hospital)?</dc:title>
-        <rdfs:label xml:lang="en">What are you satisfied with (with the collaboration between the clinicians within your hospital)?</rdfs:label>
+        <dc:title xml:lang="en">What are you satisfied with regarding the collaboration between your hospital (Duchenne expert center) and care closer to home?</dc:title>
+        <rdfs:label xml:lang="en">What are you satisfied with regarding the collaboration between your hospital (Duchenne expert center) and care closer to home?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
@@ -1532,10 +1518,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQB9">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA2"/>
-        <dc:description xml:lang="en">What could be improved (in the collaboration between the clinicians within your hospital)?</dc:description>
+        <dc:description xml:lang="en">What could be improved in the collaboration between your hospital (Duchenne expert center) and care closer to home?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQB9</dc:identifier>
-        <dc:title xml:lang="en">What could be improved (in the collaboration between the clinicians within your hospital)?</dc:title>
-        <rdfs:label xml:lang="en">What could be improved (in the collaboration between the clinicians within your hospital)?</rdfs:label>
+        <dc:title xml:lang="en">What could be improved in the collaboration between your hospital (Duchenne expert center) and care closer to home?</dc:title>
+        <rdfs:label xml:lang="en">What could be improved in the collaboration between your hospital (Duchenne expert center) and care closer to home?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
     </owl:Class>
@@ -2022,10 +2008,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQF1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA9"/>
-        <dc:description xml:lang="en">Does you have appointments with a dietitian regularly?</dc:description>
+        <dc:description xml:lang="en">Do you have appointments with a dietitian regularly?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQF1</dc:identifier>
-        <dc:title xml:lang="en">Does you have appointments with a dietitian regularly?</dc:title>
-        <rdfs:label xml:lang="en">Does you have appointments with a dietitian regularly?</rdfs:label>
+        <dc:title xml:lang="en">Do you have appointments with a dietitian regularly?</dc:title>
+        <rdfs:label xml:lang="en">Do you have appointments with a dietitian regularly?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -2232,10 +2218,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQH1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA11"/>
-        <dc:description xml:lang="en">Is your lung function measured at least once ore twice per year (e.g. blowing and coughing)? </dc:description>
+        <dc:description xml:lang="en">Is your lung function measured at least once or twice per year (e.g. blowing and coughing)? </dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQH1</dc:identifier>
-        <dc:title xml:lang="en">Is your lung function measured at least once ore twice per year (e.g. blowing and coughing)? </dc:title>
-        <rdfs:label xml:lang="en">Is your lung function measured at least once ore twice per year (e.g. blowing and coughing)? </rdfs:label>
+        <dc:title xml:lang="en">Is your lung function measured at least once or twice per year (e.g. blowing and coughing)? </dc:title>
+        <rdfs:label xml:lang="en">Is your lung function measured at least once or twice per year (e.g. blowing and coughing)? </rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -2680,10 +2666,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQO3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA18"/>
-        <dc:description xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues?</dc:description>
+        <dc:description xml:lang="en">Were you requested to fill out a questionnaire about possible behavioral issues?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQO3</dc:identifier>
-        <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues?</dc:title>
-        <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your behavioral issues?</rdfs:label>
+        <dc:title xml:lang="en">Were you requested to fill out a questionnaire about possible behavioral issues?</dc:title>
+        <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about possible behavioral issues?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
@@ -3742,20 +3728,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN7-3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN7-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN7"/>
-        <dc:description xml:lang="en">Comment</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN7-3</dc:identifier>
-        <dc:title xml:lang="en">Comment</dc:title>
-        <rdfs:label xml:lang="en">Comment</rdfs:label>
-        <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
-        <local:widget>radio</local:widget>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN8 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN8">
@@ -3777,7 +3749,7 @@
         <dc:title xml:lang="en">Local physiotherapist</dc:title>
         <rdfs:label xml:lang="en">Local physiotherapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3791,7 +3763,7 @@
         <dc:title xml:lang="en">Local occupational therapist</dc:title>
         <rdfs:label xml:lang="en">Local occupational therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3805,7 +3777,7 @@
         <dc:title xml:lang="en">Local speech and language therapist</dc:title>
         <rdfs:label xml:lang="en">Local speech and language therapist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3819,7 +3791,7 @@
         <dc:title xml:lang="en">Local dietitian</dc:title>
         <rdfs:label xml:lang="en">Local dietitian</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3833,7 +3805,7 @@
         <dc:title xml:lang="en">Local social worker</dc:title>
         <rdfs:label xml:lang="en">Local social worker</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3847,7 +3819,7 @@
         <dc:title xml:lang="en">Local psychologist</dc:title>
         <rdfs:label xml:lang="en">Local psychologist</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3861,7 +3833,7 @@
         <dc:title xml:lang="en">Other</dc:title>
         <rdfs:label xml:lang="en">Other</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -3875,7 +3847,7 @@
         <dc:title xml:lang="en">Not applicable</dc:title>
         <rdfs:label xml:lang="en">Not applicable</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:answerorder>
-        <local:widget>radio</local:widget>
+        <local:widget>select</local:widget>
     </owl:Class>
     
 
@@ -4070,20 +4042,6 @@
         <rdfs:label xml:lang="en">How satisfied are you with the collaboration between your child’s hospital (Duchenne expert center) and care closer to home?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN9</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQB8 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQB8">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC2"/>
-        <dc:description xml:lang="en">What are you satisfied with (with the collaboration between the clinicians within your child&apos;s hospital)?</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQB8</dc:identifier>
-        <dc:title xml:lang="en">What are you satisfied with (with the collaboration between the clinicians within your child&apos;s hospital)?</dc:title>
-        <rdfs:label xml:lang="en">What are you satisfied with (with the collaboration between the clinicians within your child&apos;s hospital)?</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
     
 
@@ -4302,10 +4260,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQE4">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC5"/>
-        <dc:description xml:lang="en">If your child is on steroids:do you receive annual education on steroid stress dosing during illness? (</dc:description>
+        <dc:description xml:lang="en">If your child is on steroids:do you receive annual education on steroid stress dosing during illness?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQE4</dc:identifier>
-        <dc:title xml:lang="en">If your child is on steroids:do you receive annual education on steroid stress dosing during illness? (</dc:title>
-        <rdfs:label xml:lang="en">If your child is on steroids:do you receive annual education on steroid stress dosing during illness? (</rdfs:label>
+        <dc:title xml:lang="en">If your child is on steroids:do you receive annual education on steroid stress dosing during illness?</dc:title>
+        <rdfs:label xml:lang="en">If your child is on steroids:do you receive annual education on steroid stress dosing during illness?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN12</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
     </owl:Class>
@@ -7472,10 +7430,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">What is the average frequency of cardiac function assessments in adult DMD patients? (PAQH1)</dc:description>
+        <dc:description xml:lang="en">What is the average frequency of cardiac function assessments in adult DMD patients?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH1</dc:identifier>
-        <dc:title xml:lang="en">What is the average frequency of cardiac function assessments in adult DMD patients? (PAQH1)</dc:title>
-        <rdfs:label xml:lang="en">What is the average frequency of cardiac function assessments in adult DMD patients? (PAQH1)</rdfs:label>
+        <dc:title xml:lang="en">What is the average frequency of cardiac function assessments in adult DMD patients?</dc:title>
+        <rdfs:label xml:lang="en">What is the average frequency of cardiac function assessments in adult DMD patients?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN11</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7528,10 +7486,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH5">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">Are adult DMD patients treated with ACE inhibitors? (PAQH5)</dc:description>
+        <dc:description xml:lang="en">Are adult DMD patients treated with ACE inhibitors?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH5</dc:identifier>
-        <dc:title xml:lang="en">Are adult DMD patients treated with ACE inhibitors? (PAQH5)</dc:title>
-        <rdfs:label xml:lang="en">Are adult DMD patients treated with ACE inhibitors? (PAQH5)</rdfs:label>
+        <dc:title xml:lang="en">Are adult DMD patients treated with ACE inhibitors?</dc:title>
+        <rdfs:label xml:lang="en">Are adult DMD patients treated with ACE inhibitors?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN6</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
@@ -7542,10 +7500,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH6">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">Are adult DMD patients treated with a beta-blocker if needed? (PAQH6)</dc:description>
+        <dc:description xml:lang="en">Are adult DMD patients treated with a beta-blocker if needed?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH6</dc:identifier>
-        <dc:title xml:lang="en">Are adult DMD patients treated with a beta-blocker if needed? (PAQH6)</dc:title>
-        <rdfs:label xml:lang="en">Are adult DMD patients treated with a beta-blocker if needed? (PAQH6)</rdfs:label>
+        <dc:title xml:lang="en">Are adult DMD patients treated with a beta-blocker if needed?</dc:title>
+        <rdfs:label xml:lang="en">Are adult DMD patients treated with a beta-blocker if needed?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
     </owl:Class>
@@ -7556,10 +7514,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH7">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">Are adult DMD patients treated with angiotensin receptor blockers (ARBs)? (PAQH7)</dc:description>
+        <dc:description xml:lang="en">Are adult DMD patients treated with angiotensin receptor blockers (ARBs)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH7</dc:identifier>
-        <dc:title xml:lang="en">Are adult DMD patients treated with angiotensin receptor blockers (ARBs)? (PAQH7)</dc:title>
-        <rdfs:label xml:lang="en">Are adult DMD patients treated with angiotensin receptor blockers (ARBs)? (PAQH7)</rdfs:label>
+        <dc:title xml:lang="en">Are adult DMD patients treated with angiotensin receptor blockers (ARBs)?</dc:title>
+        <rdfs:label xml:lang="en">Are adult DMD patients treated with angiotensin receptor blockers (ARBs)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN6</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
     </owl:Class>
@@ -7570,10 +7528,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH8">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic)(or in shared care)? (PAQH8)</dc:description>
+        <dc:description xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic)(or in shared care)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH8</dc:identifier>
-        <dc:title xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic)(or in shared care)? (PAQH8)</dc:title>
-        <rdfs:label xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic)(or in shared care)? (PAQH8)</rdfs:label>
+        <dc:title xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic)(or in shared care)?</dc:title>
+        <rdfs:label xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic)(or in shared care)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN6</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
@@ -7584,10 +7542,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH9">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">Comments/suggestions (PAQH9)</dc:description>
+        <dc:description xml:lang="en">Comments/suggestions</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH9</dc:identifier>
-        <dc:title xml:lang="en">Comments/suggestions (PAQH9)</dc:title>
-        <rdfs:label xml:lang="en">Comments/suggestions (PAQH9)</rdfs:label>
+        <dc:title xml:lang="en">Comments/suggestions</dc:title>
+        <rdfs:label xml:lang="en">Comments/suggestions</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
     </owl:Class>
@@ -7930,20 +7888,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">The number of children with DMD treated is in relation to the care region</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA1</dc:identifier>
-        <dc:title xml:lang="en">The number of children with DMD treated is in relation to the care region</dc:title>
-        <rdfs:label xml:lang="en">The number of children with DMD treated is in relation to the care region</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA11">
@@ -7954,20 +7898,6 @@
         <rdfs:label xml:lang="en">How many children with DMD are you currently seeing in your center?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#NUM</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Pediatric DMD care is provided by a multidisciplinary team (patients have access: neuromuscular specialist (rehabilitation physician and/or neurologist), cardiologist, respiratory physician, physiotherapist, occupational therapist, speech and language therapist, dietitian, (clinical neuro)psychologist)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA2</dc:identifier>
-        <dc:title xml:lang="en">Pediatric DMD care is provided by a multidisciplinary team (patients have access: neuromuscular specialist (rehabilitation physician and/or neurologist), cardiologist, respiratory physician, physiotherapist, occupational therapist, speech and language therapist, dietitian, (clinical neuro)psychologist)</dc:title>
-        <rdfs:label xml:lang="en">Pediatric DMD care is provided by a multidisciplinary team (patients have access: neuromuscular specialist (rehabilitation physician and/or neurologist), cardiologist, respiratory physician, physiotherapist, occupational therapist, speech and language therapist, dietitian, (clinical neuro)psychologist)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
     
 
@@ -8028,34 +7958,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Multidisciplinary pediatric DMD care may be delivered either by one center, or shared with other locations; however, the applying center is responsible for the care plan, communication, documentation and collaboration</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA3</dc:identifier>
-        <dc:title xml:lang="en">Multidisciplinary pediatric DMD care may be delivered either by one center, or shared with other locations; however, the applying center is responsible for the care plan, communication, documentation and collaboration</dc:title>
-        <rdfs:label xml:lang="en">Multidisciplinary pediatric DMD care may be delivered either by one center, or shared with other locations; however, the applying center is responsible for the care plan, communication, documentation and collaboration</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA4 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Multidisciplinary pediatric DMD care leads to an integrated care plan (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA4</dc:identifier>
-        <dc:title xml:lang="en">Multidisciplinary pediatric DMD care leads to an integrated care plan (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <rdfs:label xml:lang="en">Multidisciplinary pediatric DMD care leads to an integrated care plan (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA41 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA41">
@@ -8066,20 +7968,6 @@
         <rdfs:label xml:lang="en">Leads multidisciplinary pediatric DMD care to an integrated care plan in your center?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA5 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">There is a Did Not Attend policy for pediatric DMD patients (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA5</dc:identifier>
-        <dc:title xml:lang="en">There is a Did Not Attend policy for pediatric DMD patients (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <rdfs:label xml:lang="en">There is a Did Not Attend policy for pediatric DMD patients (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</local:questionorder>
     </owl:Class>
     
 
@@ -10220,20 +10108,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC2"/>
-        <dc:description xml:lang="en">Genetic testing is used to confirm the diagnosis</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB1</dc:identifier>
-        <dc:title xml:lang="en">Genetic testing is used to confirm the diagnosis</dc:title>
-        <rdfs:label xml:lang="en">Genetic testing is used to confirm the diagnosis</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB11">
@@ -10276,20 +10150,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC3"/>
-        <dc:description xml:lang="en">Family members at risk receive genetic counseling</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC1</dc:identifier>
-        <dc:title xml:lang="en">Family members at risk receive genetic counseling</dc:title>
-        <rdfs:label xml:lang="en">Family members at risk receive genetic counseling</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC11">
@@ -10318,20 +10178,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC3"/>
-        <dc:description xml:lang="en">Female carriers have access to cardiac check-up</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC2</dc:identifier>
-        <dc:title xml:lang="en">Female carriers have access to cardiac check-up</dc:title>
-        <rdfs:label xml:lang="en">Female carriers have access to cardiac check-up</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC21">
@@ -10346,20 +10192,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC3"/>
-        <dc:description xml:lang="en">Symptomatic female carriers receive regular physical assessment</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC3</dc:identifier>
-        <dc:title xml:lang="en">Symptomatic female carriers receive regular physical assessment</dc:title>
-        <rdfs:label xml:lang="en">Symptomatic female carriers receive regular physical assessment</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC31 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC31">
@@ -10370,20 +10202,6 @@
         <rdfs:label xml:lang="en">Do symptomatic female carriers receive regular physical follow-up?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC4 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC3"/>
-        <dc:description xml:lang="en">Symptomatic female carriers receive regular cardiac check up</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQC4</dc:identifier>
-        <dc:title xml:lang="en">Symptomatic female carriers receive regular cardiac check up</dc:title>
-        <rdfs:label xml:lang="en">Symptomatic female carriers receive regular cardiac check up</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
     
 
@@ -10412,20 +10230,6 @@
         <rdfs:label xml:lang="en">Comments/suggestions</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC4"/>
-        <dc:description xml:lang="en">Patients are advised to use corticosteroids</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD1</dc:identifier>
-        <dc:title xml:lang="en">Patients are advised to use corticosteroids</dc:title>
-        <rdfs:label xml:lang="en">Patients are advised to use corticosteroids</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
     
 
@@ -10472,20 +10276,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC4"/>
-        <dc:description xml:lang="en">Annual education on adrenal suppression and stress dosing during illness (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD3</dc:identifier>
-        <dc:title xml:lang="en">Annual education on adrenal suppression and stress dosing during illness (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <rdfs:label xml:lang="en">Annual education on adrenal suppression and stress dosing during illness (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD31 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD31">
@@ -10510,20 +10300,6 @@
         <rdfs:label xml:lang="en">Comments/suggestions</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQE1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQE1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC5"/>
-        <dc:description xml:lang="en">Comprehensive multidisciplinary rehabilitation assessments are done at least once every 6 months in line with the disease stage (can be in shared care; assessments are done at least once per year in the main center)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQE1</dc:identifier>
-        <dc:title xml:lang="en">Comprehensive multidisciplinary rehabilitation assessments are done at least once every 6 months in line with the disease stage (can be in shared care; assessments are done at least once per year in the main center)</dc:title>
-        <rdfs:label xml:lang="en">Comprehensive multidisciplinary rehabilitation assessments are done at least once every 6 months in line with the disease stage (can be in shared care; assessments are done at least once per year in the main center)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
     
 
@@ -10556,20 +10332,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC6"/>
-        <dc:description xml:lang="en">Assessment of height is done at least once every 6 months</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF1</dc:identifier>
-        <dc:title xml:lang="en">Assessment of height is done at least once every 6 months</dc:title>
-        <rdfs:label xml:lang="en">Assessment of height is done at least once every 6 months</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF11">
@@ -10584,20 +10346,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC6"/>
-        <dc:description xml:lang="en">Annual assessment of pubertal status (consider starting at age 12-13) (NOT A SCREENING CRITERIA, FOR ACCREDIATION)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF2</dc:identifier>
-        <dc:title xml:lang="en">Annual assessment of pubertal status (consider starting at age 12-13) (NOT A SCREENING CRITERIA, FOR ACCREDIATION)</dc:title>
-        <rdfs:label xml:lang="en">Annual assessment of pubertal status (consider starting at age 12-13) (NOT A SCREENING CRITERIA, FOR ACCREDIATION)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF21">
@@ -10608,20 +10356,6 @@
         <rdfs:label xml:lang="en">Is pubertal status assessed once per year in children with DMD (consider starting at age 9 years)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC6"/>
-        <dc:description xml:lang="en">Family education on adrenal crisis and stress dose steroid prescription if children are on glucocorticoids</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQF3</dc:identifier>
-        <dc:title xml:lang="en">Family education on adrenal crisis and stress dose steroid prescription if children are on glucocorticoids</dc:title>
-        <rdfs:label xml:lang="en">Family education on adrenal crisis and stress dose steroid prescription if children are on glucocorticoids</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
     
 
@@ -10654,20 +10388,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC7"/>
-        <dc:description xml:lang="en">Assessment by a nutrition dietitian at least annually</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG1</dc:identifier>
-        <dc:title xml:lang="en">Assessment by a nutrition dietitian at least annually</dc:title>
-        <rdfs:label xml:lang="en">Assessment by a nutrition dietitian at least annually</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG11">
@@ -10678,20 +10398,6 @@
         <rdfs:label xml:lang="en">Are children with DMD monitored by a registered dietitian in your center (or in shared care) at least once per year?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC7"/>
-        <dc:description xml:lang="en">Assessment of body weight at least annually</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG2</dc:identifier>
-        <dc:title xml:lang="en">Assessment of body weight at least annually</dc:title>
-        <rdfs:label xml:lang="en">Assessment of body weight at least annually</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
     
 
@@ -10710,20 +10416,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC7"/>
-        <dc:description xml:lang="en">Preventing both overweight and underweight</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG3</dc:identifier>
-        <dc:title xml:lang="en">Preventing both overweight and underweight</dc:title>
-        <rdfs:label xml:lang="en">Preventing both overweight and underweight</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG31 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG31">
@@ -10738,20 +10430,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG4 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC7"/>
-        <dc:description xml:lang="en">Annual assessment of the level of vitamin D</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG4</dc:identifier>
-        <dc:title xml:lang="en">Annual assessment of the level of vitamin D</dc:title>
-        <rdfs:label xml:lang="en">Annual assessment of the level of vitamin D</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG41 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG41">
@@ -10762,20 +10440,6 @@
         <rdfs:label xml:lang="en">Is the level of vitamin D assessed at least once per year?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG5 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC7"/>
-        <dc:description xml:lang="en">Annual assessment of dietary calcium intake</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQG5</dc:identifier>
-        <dc:title xml:lang="en">Annual assessment of dietary calcium intake</dc:title>
-        <rdfs:label xml:lang="en">Annual assessment of dietary calcium intake</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
     </owl:Class>
     
 
@@ -10868,44 +10532,16 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Respiratory assessments are initiated in the ambulatory stage</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH1</dc:identifier>
-        <dc:title xml:lang="en">Respiratory assessments are initiated in the ambulatory stage</dc:title>
-        <rdfs:label xml:lang="en">Respiratory assessments are initiated in the ambulatory stage</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH11">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Does your center initiate respiratory assessments in the ambulatory stage?</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH11</dc:identifier>
-        <dc:title xml:lang="en">Does your center initiate respiratory assessments in the ambulatory stage?</dc:title>
-        <rdfs:label xml:lang="en">Does your center initiate respiratory assessments in the ambulatory stage?</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Respiratory function is measured at least once every six months in non-ambulatory children</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH2</dc:identifier>
-        <dc:title xml:lang="en">Respiratory function is measured at least once every six months in non-ambulatory children</dc:title>
-        <rdfs:label xml:lang="en">Respiratory function is measured at least once every six months in non-ambulatory children</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
+        <dc:description>Does your center initiate respiratory assessments in the ambulatory stage?</dc:description>
+        <dc:identifier rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH11"/>
+        <dc:title>Does your center initiate respiratory assessments in the ambulatory stage?</dc:title>
+        <rdfs:label>Does your center initiate respiratory assessments in the ambulatory stage?</rdfs:label>
+        <local:answerblock rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10"/>
+        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</local:questionorder>
     </owl:Class>
     
 
@@ -10920,20 +10556,6 @@
         <rdfs:label xml:lang="en">What is the frequency of spirometry in non-ambulatory children with DMD?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN13</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Children with DMD receive lung volume recruitment if needed</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH3</dc:identifier>
-        <dc:title xml:lang="en">Children with DMD receive lung volume recruitment if needed</dc:title>
-        <rdfs:label xml:lang="en">Children with DMD receive lung volume recruitment if needed</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
     
 
@@ -10966,48 +10588,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH4 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Children with DMD receive nocturnal ventilation if needed</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH4</dc:identifier>
-        <dc:title xml:lang="en">Children with DMD receive nocturnal ventilation if needed</dc:title>
-        <rdfs:label xml:lang="en">Children with DMD receive nocturnal ventilation if needed</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH5 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Children with DMD are advised to receive up to date immunization according to the national guidelines (influenza vaccines, covid and pneumococcal vaccines)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH5</dc:identifier>
-        <dc:title xml:lang="en">Children with DMD are advised to receive up to date immunization according to the national guidelines (influenza vaccines, covid and pneumococcal vaccines)</dc:title>
-        <rdfs:label xml:lang="en">Children with DMD are advised to receive up to date immunization according to the national guidelines (influenza vaccines, covid and pneumococcal vaccines)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC9"/>
-        <dc:description xml:lang="en">Cardiac function is assessed at least once per year in children with DMD from diagnosis (more often if needed)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI1</dc:identifier>
-        <dc:title xml:lang="en">Cardiac function is assessed at least once per year in children with DMD from diagnosis (more often if needed)</dc:title>
-        <rdfs:label xml:lang="en">Cardiac function is assessed at least once per year in children with DMD from diagnosis (more often if needed)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI11">
@@ -11018,20 +10598,6 @@
         <rdfs:label xml:lang="en">What is the average frequency of cardiac function assessments in children with DMD?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN11</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC9"/>
-        <dc:description xml:lang="en">Cardiac function is assessed with an echocardiogram and/or electrocardiogram</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI2</dc:identifier>
-        <dc:title xml:lang="en">Cardiac function is assessed with an echocardiogram and/or electrocardiogram</dc:title>
-        <rdfs:label xml:lang="en">Cardiac function is assessed with an echocardiogram and/or electrocardiogram</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
     
 
@@ -11064,20 +10630,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC9"/>
-        <dc:description xml:lang="en">Children with DMD receive a cMRI once every 2-5 years or on clinical indication</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI3</dc:identifier>
-        <dc:title xml:lang="en">Children with DMD receive a cMRI once every 2-5 years or on clinical indication</dc:title>
-        <rdfs:label xml:lang="en">Children with DMD receive a cMRI once every 2-5 years or on clinical indication</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI31 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI31">
@@ -11092,20 +10644,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI4 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI4">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC9"/>
-        <dc:description xml:lang="en">ACE inhibitors or angiotensin receptor blockers are initiated by age 10 years</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI4</dc:identifier>
-        <dc:title xml:lang="en">ACE inhibitors or angiotensin receptor blockers are initiated by age 10 years</dc:title>
-        <rdfs:label xml:lang="en">ACE inhibitors or angiotensin receptor blockers are initiated by age 10 years</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI41 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI41">
@@ -11116,20 +10654,6 @@
         <rdfs:label xml:lang="en">Are ACE inhibitors or angiotensin receptor blockers initiated by age 10 years in children with DMD (or earlier if there are cardiac abnormalities)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI5 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI5">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC9"/>
-        <dc:description xml:lang="en">Standard heart failure interventions are provided with deterioration of systolic function</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQI5</dc:identifier>
-        <dc:title xml:lang="en">Standard heart failure interventions are provided with deterioration of systolic function</dc:title>
-        <rdfs:label xml:lang="en">Standard heart failure interventions are provided with deterioration of systolic function</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</local:questionorder>
     </owl:Class>
     
 
@@ -11162,20 +10686,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC10"/>
-        <dc:description xml:lang="en">Lateral spine X-rays are performed at least once every 1-2 years in children with DMD on glucocorticosteroids to detect early manifestations of bone fragility</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ1</dc:identifier>
-        <dc:title xml:lang="en">Lateral spine X-rays are performed at least once every 1-2 years in children with DMD on glucocorticosteroids to detect early manifestations of bone fragility</dc:title>
-        <rdfs:label xml:lang="en">Lateral spine X-rays are performed at least once every 1-2 years in children with DMD on glucocorticosteroids to detect early manifestations of bone fragility</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ11">
@@ -11186,20 +10696,6 @@
         <rdfs:label xml:lang="en">What is the frequency of performing lateral spine x-rays in children with DMD on glucocorticoids?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN14</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC10"/>
-        <dc:description xml:lang="en">Lateral spine X-rays are performed at least once every 2-3 years in children with DMD not on glucocorticosteroids to detect early manifestations of bone fragility</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQJ2</dc:identifier>
-        <dc:title xml:lang="en">Lateral spine X-rays are performed at least once every 2-3 years in children with DMD not on glucocorticosteroids to detect early manifestations of bone fragility</dc:title>
-        <rdfs:label xml:lang="en">Lateral spine X-rays are performed at least once every 2-3 years in children with DMD not on glucocorticosteroids to detect early manifestations of bone fragility</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
     
 
@@ -11232,20 +10728,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC11"/>
-        <dc:description xml:lang="en">Joint range of motion is assessed at least once every six months</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK1</dc:identifier>
-        <dc:title xml:lang="en">Joint range of motion is assessed at least once every six months</dc:title>
-        <rdfs:label xml:lang="en">Joint range of motion is assessed at least once every six months</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK11">
@@ -11260,20 +10742,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC11"/>
-        <dc:description xml:lang="en">Annual visual monitoring for scoliosis in ambulant children with DMD</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK2</dc:identifier>
-        <dc:title xml:lang="en">Annual visual monitoring for scoliosis in ambulant children with DMD</dc:title>
-        <rdfs:label xml:lang="en">Annual visual monitoring for scoliosis in ambulant children with DMD</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK21">
@@ -11284,20 +10752,6 @@
         <rdfs:label xml:lang="en">What is the frequency of visually monitoring for scoliosis in ambulatory children with DMD?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN13</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC11"/>
-        <dc:description xml:lang="en">Visual monitoring for scoliosis at least once every six months in non-ambulatory children with DMD</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQK3</dc:identifier>
-        <dc:title xml:lang="en">Visual monitoring for scoliosis at least once every six months in non-ambulatory children with DMD</dc:title>
-        <rdfs:label xml:lang="en">Visual monitoring for scoliosis at least once every six months in non-ambulatory children with DMD</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
     
 
@@ -11330,20 +10784,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC12"/>
-        <dc:description xml:lang="en">A mental health clinician (such as a psychologist or social worker is part of the multidisciplinary team</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL1</dc:identifier>
-        <dc:title xml:lang="en">A mental health clinician (such as a psychologist or social worker is part of the multidisciplinary team</dc:title>
-        <rdfs:label xml:lang="en">A mental health clinician (such as a psychologist or social worker is part of the multidisciplinary team</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL11">
@@ -11358,20 +10798,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC12"/>
-        <dc:description xml:lang="en">Mental health and quality of life of children with DMD and their families are assessed at every clinic</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL2</dc:identifier>
-        <dc:title xml:lang="en">Mental health and quality of life of children with DMD and their families are assessed at every clinic</dc:title>
-        <rdfs:label xml:lang="en">Mental health and quality of life of children with DMD and their families are assessed at every clinic</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL21">
@@ -11382,34 +10808,6 @@
         <rdfs:label xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)? (MORE THAN ONE ANSWER IS POSSIBLE)</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC12"/>
-        <dc:description xml:lang="en">Children with DMD and their families receive ongoing mental support</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL3</dc:identifier>
-        <dc:title xml:lang="en">Children with DMD and their families receive ongoing mental support</dc:title>
-        <rdfs:label xml:lang="en">Children with DMD and their families receive ongoing mental support</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL31 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL31">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC12"/>
-        <dc:description xml:lang="en">Neuropsychological evaluations and interventions for learning, emotional and behavioral problems are provided</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL31</dc:identifier>
-        <dc:title xml:lang="en">Neuropsychological evaluations and interventions for learning, emotional and behavioral problems are provided</dc:title>
-        <rdfs:label xml:lang="en">Neuropsychological evaluations and interventions for learning, emotional and behavioral problems are provided</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
     </owl:Class>
     
 
@@ -11442,20 +10840,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC13"/>
-        <dc:description xml:lang="en">Active approach to transition</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM1</dc:identifier>
-        <dc:title xml:lang="en">Active approach to transition</dc:title>
-        <rdfs:label xml:lang="en">Active approach to transition</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM11">
@@ -11470,20 +10854,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC13"/>
-        <dc:description xml:lang="en">Engagement in (optimistic) discussion about future</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM2</dc:identifier>
-        <dc:title xml:lang="en">Engagement in (optimistic) discussion about future</dc:title>
-        <rdfs:label xml:lang="en">Engagement in (optimistic) discussion about future</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM21">
@@ -11494,20 +10864,6 @@
         <rdfs:label xml:lang="en">Does your center initiate discussion about the future with children with DMD?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC13"/>
-        <dc:description xml:lang="en">Foster goal setting and future expectations for adult life</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQM3</dc:identifier>
-        <dc:title xml:lang="en">Foster goal setting and future expectations for adult life</dc:title>
-        <rdfs:label xml:lang="en">Foster goal setting and future expectations for adult life</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
     
 
@@ -11540,20 +10896,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQN1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQN1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC14"/>
-        <dc:description xml:lang="en">The primary care provider is part of the care team and works in partnership with the multidisciplinary team</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQN1</dc:identifier>
-        <dc:title xml:lang="en">The primary care provider is part of the care team and works in partnership with the multidisciplinary team</dc:title>
-        <rdfs:label xml:lang="en">The primary care provider is part of the care team and works in partnership with the multidisciplinary team</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQN11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQN11">
@@ -11578,20 +10920,6 @@
         <rdfs:label xml:lang="en">Comments/suggestions</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQO1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQO1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC15"/>
-        <dc:description xml:lang="en">There is always a pre-anesthetic assessment which includes assessments of 1) airway (mouth opening), 2) cardiac status (echo/cMRI) and 3) respiratory status</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQO1</dc:identifier>
-        <dc:title xml:lang="en">There is always a pre-anesthetic assessment which includes assessments of 1) airway (mouth opening), 2) cardiac status (echo/cMRI) and 3) respiratory status</dc:title>
-        <rdfs:label xml:lang="en">There is always a pre-anesthetic assessment which includes assessments of 1) airway (mouth opening), 2) cardiac status (echo/cMRI) and 3) respiratory status</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
     
 
@@ -11638,24 +10966,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC16"/>
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC16"/>
-        <dc:description xml:lang="en">An emergency card is recommended for DMD patients (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:description xml:lang="en">Were you requested to fill out a questionnaire about your child’s Quality of life (how satisfied your child is with his life)?</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP1</dc:identifier>
-        <dc:title xml:lang="en">An emergency card is recommended for DMD patients (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your child’s Quality of life (how satisfied your child is with his life)?</dc:title>
-        <rdfs:label xml:lang="en">An emergency card is recommended for DMD patients (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your child’s Quality of life (how satisfied your child is with his life)?</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN3</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP11 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP11">
@@ -11666,25 +10976,6 @@
         <rdfs:label xml:lang="en">Does your center recommend an emergency card for DMD patients?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC16"/>
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC16"/>
-        <dc:description xml:lang="en">In case of an emergency setting where transfer to the (expert) center is not possible, advice is given to the local hospital (involved) by the expert center (if the expert center knows that a patient is hospitalized in a local hospital; patients are educated by the expert center to inform professionals in local hospitals to get in contact with the expert centers) (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:description xml:lang="en">Were you requested to fill out a questionnaire about your child’s social participation?</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQP2</dc:identifier>
-        <dc:title xml:lang="en">In case of an emergency setting where transfer to the (expert) center is not possible, advice is given to the local hospital (involved) by the expert center (if the expert center knows that a patient is hospitalized in a local hospital; patients are educated by the expert center to inform professionals in local hospitals to get in contact with the expert centers) (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your child’s social participation?</dc:title>
-        <rdfs:label xml:lang="en">In case of an emergency setting where transfer to the (expert) center is not possible, advice is given to the local hospital (involved) by the expert center (if the expert center knows that a patient is hospitalized in a local hospital; patients are educated by the expert center to inform professionals in local hospitals to get in contact with the expert centers) (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your child’s social participation?</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN3</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
     
 
@@ -11755,20 +11046,6 @@
         <rdfs:label xml:lang="en">Comments/suggestions</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQQ1 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQQ1">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC17"/>
-        <dc:description xml:lang="en">Monitoring patient satisfaction with the health care services regularly (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQQ1</dc:identifier>
-        <dc:title xml:lang="en">Monitoring patient satisfaction with the health care services regularly (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <rdfs:label xml:lang="en">Monitoring patient satisfaction with the health care services regularly (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
     
 
@@ -12505,8 +11782,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRA8</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8</dc:identifier>
-        <dc:title xml:lang="en">Cardiac manamgent</dc:title>
-        <rdfs:label xml:lang="en">Cardiac manamgent</rdfs:label>
+        <dc:title xml:lang="en">Cardiac management</dc:title>
+        <rdfs:label xml:lang="en">Cardiac management</rdfs:label>
     </owl:Class>
     
 
