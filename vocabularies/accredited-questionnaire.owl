@@ -10522,12 +10522,12 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH11">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description>Does your center initiate respiratory assessments in the ambulatory stage?</dc:description>
+        <dc:description xml:lang="en">Does your center initiate respiratory assessments in the ambulatory stage?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH11</dc:identifier>
-        <dc:title>Does your center initiate respiratory assessments in the ambulatory stage?</dc:title>
-        <rdfs:label>Does your center initiate respiratory assessments in the ambulatory stage?</rdfs:label>
+        <dc:title xml:lang="en">Does your center initiate respiratory assessments in the ambulatory stage?</dc:title>
+        <rdfs:label xml:lang="en">Does your center initiate respiratory assessments in the ambulatory stage?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN10</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</local:questionorder>
+        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
     
 
