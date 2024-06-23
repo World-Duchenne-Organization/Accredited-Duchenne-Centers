@@ -11058,7 +11058,7 @@
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQQ12</dc:identifier>
         <dc:title xml:lang="en">Comments/Suggestions</dc:title>
         <rdfs:label xml:lang="en">Comments/Suggestions</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#Open</local:answerblock>
+        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
     
