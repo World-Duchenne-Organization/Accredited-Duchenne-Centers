@@ -5058,10 +5058,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQA4">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA1"/>
-        <dc:description xml:lang="en">If care is shared with other locations, is the applying center responsible for (more than one answer possible):</dc:description>
+        <dc:description xml:lang="en">If care is shared with other locations, is the applying center responsible for:</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQA4</dc:identifier>
-        <dc:title xml:lang="en">If care is shared with other locations, is the applying center responsible for (more than one answer possible):</dc:title>
-        <rdfs:label xml:lang="en">If care is shared with other locations, is the applying center responsible for (more than one answer possible):</rdfs:label>
+        <dc:title xml:lang="en">If care is shared with other locations, is the applying center responsible for:</dc:title>
+        <rdfs:label xml:lang="en">If care is shared with other locations, is the applying center responsible for:</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN3</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
     </owl:Class>
@@ -5072,10 +5072,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQA5">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA1"/>
-        <dc:description xml:lang="en">Are the following disciplines part of the  multidisciplinary care in adult DMD patients in your center (more than one answer is possible)?</dc:description>
+        <dc:description xml:lang="en">Are the following disciplines part of the  multidisciplinary care in adult DMD patients in your center?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQA5</dc:identifier>
-        <dc:title xml:lang="en">Are the following disciplines part of the  multidisciplinary care in adult DMD patients in your center (more than one answer is possible)?</dc:title>
-        <rdfs:label xml:lang="en">Are the following disciplines part of the  multidisciplinary care in adult DMD patients in your center (more than one answer is possible)?</rdfs:label>
+        <dc:title xml:lang="en">Are the following disciplines part of the  multidisciplinary care in adult DMD patients in your center?</dc:title>
+        <rdfs:label xml:lang="en">Are the following disciplines part of the  multidisciplinary care in adult DMD patients in your center?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
@@ -7402,10 +7402,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG6">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA7"/>
-        <dc:description xml:lang="en">If your center recommends immunization, which vaccines does your center recommend (more than one answer possible):</dc:description>
+        <dc:description xml:lang="en">If your center recommends immunization, which vaccines does your center recommend:</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG6</dc:identifier>
-        <dc:title xml:lang="en">If your center recommends immunization, which vaccines does your center recommend (more than one answer possible):</dc:title>
-        <rdfs:label xml:lang="en">If your center recommends immunization, which vaccines does your center recommend (more than one answer possible):</rdfs:label>
+        <dc:title xml:lang="en">If your center recommends immunization, which vaccines does your center recommend:</dc:title>
+        <rdfs:label xml:lang="en">If your center recommends immunization, which vaccines does your center recommend:</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG6</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
     </owl:Class>
@@ -7654,10 +7654,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA11"/>
-        <dc:description xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</dc:description>
+        <dc:description xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team):</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1</dc:identifier>
-        <dc:title xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</dc:title>
-        <rdfs:label xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team) (more than one answer is possible):</rdfs:label>
+        <dc:title xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team):</dc:title>
+        <rdfs:label xml:lang="en">Which of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team):</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7682,10 +7682,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA11"/>
-        <dc:description xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for adult DMD patients and their families (more than one answer is possible)?</dc:description>
+        <dc:description xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for adult DMD patients and their families?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK3</dc:identifier>
-        <dc:title xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for adult DMD patients and their families (more than one answer is possible)?</dc:title>
-        <rdfs:label xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for adult DMD patients and their families (more than one answer is possible)?</rdfs:label>
+        <dc:title xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for adult DMD patients and their families?</dc:title>
+        <rdfs:label xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for adult DMD patients and their families?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK3</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
@@ -7794,10 +7794,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQN2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA14"/>
-        <dc:description xml:lang="en">Which pre-anesthetic assessments are always performed in adult DMD patients (more than one answer possible)?</dc:description>
+        <dc:description xml:lang="en">Which pre-anesthetic assessments are always performed in adult DMD patients?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQN2</dc:identifier>
-        <dc:title xml:lang="en">Which pre-anesthetic assessments are always performed in adult DMD patients (more than one answer possible)?</dc:title>
-        <rdfs:label xml:lang="en">Which pre-anesthetic assessments are always performed in adult DMD patients (more than one answer possible)?</rdfs:label>
+        <dc:title xml:lang="en">Which pre-anesthetic assessments are always performed in adult DMD patients?</dc:title>
+        <rdfs:label xml:lang="en">Which pre-anesthetic assessments are always performed in adult DMD patients?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQN2</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
@@ -7934,10 +7934,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA233">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">If care is shared with other locations, is the applying center responsible for (more than one answer is possble): </dc:description>
+        <dc:description xml:lang="en">If care is shared with other locations, is the applying center responsible for: </dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA233</dc:identifier>
-        <dc:title xml:lang="en">If care is shared with other locations, is the applying center responsible for (more than one answer is possble): </dc:title>
-        <rdfs:label xml:lang="en">If care is shared with other locations, is the applying center responsible for (more than one answer is possble): </rdfs:label>
+        <dc:title xml:lang="en">If care is shared with other locations, is the applying center responsible for: </dc:title>
+        <rdfs:label xml:lang="en">If care is shared with other locations, is the applying center responsible for: </rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN3</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
     </owl:Class>
@@ -7948,10 +7948,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA234">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center (more than one answer is possible)? NB Per option: in the applying center, in shared care, no)</dc:description>
+        <dc:description xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center? NB Per option: in the applying center, in shared care, no)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA234</dc:identifier>
-        <dc:title xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center (more than one answer is possible)? NB Per option: in the applying center, in shared care, no)</dc:title>
-        <rdfs:label xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center (more than one answer is possible)? NB Per option: in the applying center, in shared care, no)</rdfs:label>
+        <dc:title xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center? NB Per option: in the applying center, in shared care, no)</dc:title>
+        <rdfs:label xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center? NB Per option: in the applying center, in shared care, no)</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
@@ -9616,10 +9616,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5"/>
-        <dc:description xml:lang="en">- Muscle biopsy</dc:description>
+        <dc:description xml:lang="en">Muscle biopsy</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-2</dc:identifier>
-        <dc:title xml:lang="en">- Muscle biopsy</dc:title>
-        <rdfs:label xml:lang="en">- Muscle biopsy</rdfs:label>
+        <dc:title xml:lang="en">Muscle biopsy</dc:title>
+        <rdfs:label xml:lang="en">Muscle biopsy</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
         <local:widget>select</local:widget>
     </owl:Class>
@@ -9630,10 +9630,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5"/>
-        <dc:description xml:lang="en">- Other:…..</dc:description>
+        <dc:description xml:lang="en">Other:…..</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5-3</dc:identifier>
-        <dc:title xml:lang="en">- Other:…..</dc:title>
-        <rdfs:label xml:lang="en">- Other:…..</rdfs:label>
+        <dc:title xml:lang="en">Other:…..</dc:title>
+        <rdfs:label xml:lang="en">Other:…..</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
         <local:widget>select</local:widget>
     </owl:Class>
@@ -10098,10 +10098,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB11">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC2"/>
-        <dc:description xml:lang="en">How is the diagnosis DMD confirmed in your center (more than one answer is possible)?</dc:description>
+        <dc:description xml:lang="en">How is the diagnosis DMD confirmed in your center?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQB11</dc:identifier>
-        <dc:title xml:lang="en">How is the diagnosis DMD confirmed in your center (more than one answer is possible)?</dc:title>
-        <rdfs:label xml:lang="en">How is the diagnosis DMD confirmed in your center (more than one answer is possible)?</rdfs:label>
+        <dc:title xml:lang="en">How is the diagnosis DMD confirmed in your center?</dc:title>
+        <rdfs:label xml:lang="en">How is the diagnosis DMD confirmed in your center?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN5</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
@@ -10550,10 +10550,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH3451">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC8"/>
-        <dc:description xml:lang="en">Which of the following interventions does your center provide to children with DMD if needed (more than one answer is possible)? </dc:description>
+        <dc:description xml:lang="en">Which of the following interventions does your center provide to children with DMD if needed? </dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQH3451</dc:identifier>
-        <dc:title xml:lang="en">Which of the following interventions does your center provide to children with DMD if needed (more than one answer is possible)? </dc:title>
-        <rdfs:label xml:lang="en">Which of the following interventions does your center provide to children with DMD if needed (more than one answer is possible)? </rdfs:label>
+        <dc:title xml:lang="en">Which of the following interventions does your center provide to children with DMD if needed? </dc:title>
+        <rdfs:label xml:lang="en">Which of the following interventions does your center provide to children with DMD if needed? </rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN9</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
@@ -10788,10 +10788,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL21">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC12"/>
-        <dc:description xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)? (MORE THAN ONE ANSWER IS POSSIBLE)</dc:description>
+        <dc:description xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL21</dc:identifier>
-        <dc:title xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)? (MORE THAN ONE ANSWER IS POSSIBLE)</dc:title>
-        <rdfs:label xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)? (MORE THAN ONE ANSWER IS POSSIBLE)</rdfs:label>
+        <dc:title xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)?</dc:title>
+        <rdfs:label xml:lang="en">What is the frequency of the following psychological assessments for children with DMD and their families in your center (or in shared care)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN15</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
     </owl:Class>
@@ -10802,10 +10802,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL341">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC12"/>
-        <dc:description xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for children with DMD and their families (more than one answer is possible)? </dc:description>
+        <dc:description xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for children with DMD and their families? </dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQL341</dc:identifier>
-        <dc:title xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for children with DMD and their families (more than one answer is possible)? </dc:title>
-        <rdfs:label xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for children with DMD and their families (more than one answer is possible)? </rdfs:label>
+        <dc:title xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for children with DMD and their families? </dc:title>
+        <rdfs:label xml:lang="en">Which of the following psychological assessments and/or interventions does your center provide for children with DMD and their families? </rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
     </owl:Class>
@@ -10928,10 +10928,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQO12">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC15"/>
-        <dc:description xml:lang="en">Which of the following pre-anesthetic assessments are always performed in children with DMD (more than one answer possible)? (MORE THAN ONE ANSWER IS POSSIBLE)</dc:description>
+        <dc:description xml:lang="en">Which of the following pre-anesthetic assessments are always performed in children with DMD?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQO12</dc:identifier>
-        <dc:title xml:lang="en">Which of the following pre-anesthetic assessments are always performed in children with DMD (more than one answer possible)? (MORE THAN ONE ANSWER IS POSSIBLE)</dc:title>
-        <rdfs:label xml:lang="en">Which of the following pre-anesthetic assessments are always performed in children with DMD (more than one answer possible)? (MORE THAN ONE ANSWER IS POSSIBLE)</rdfs:label>
+        <dc:title xml:lang="en">Which of the following pre-anesthetic assessments are always performed in children with DMD?</dc:title>
+        <rdfs:label xml:lang="en">Which of the following pre-anesthetic assessments are always performed in children with DMD?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN17</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
