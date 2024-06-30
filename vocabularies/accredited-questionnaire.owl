@@ -7416,10 +7416,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG7">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA7"/>
-        <dc:description xml:lang="en">If your center recommends immunization, which vaccines does your center recommend (more than one answer possible):</dc:description>
+        <dc:description xml:lang="en">If your center recommends immunization, which vaccines does your center recommend:</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG7</dc:identifier>
-        <dc:title xml:lang="en">If your center recommends immunization, which vaccines does your center recommend (more than one answer possible):</dc:title>
-        <rdfs:label xml:lang="en">If your center recommends immunization, which vaccines does your center recommend (more than one answer possible):</rdfs:label>
+        <dc:title xml:lang="en">If your center recommends immunization, which vaccines does your center recommend:</dc:title>
+        <rdfs:label xml:lang="en">If your center recommends immunization, which vaccines does your center recommend:</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN10</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</local:questionorder>
     </owl:Class>
