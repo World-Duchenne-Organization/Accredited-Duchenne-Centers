@@ -274,10 +274,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQA6">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA1"/>
-        <dc:description xml:lang="en">Are local allied health-care therapists involved in your  Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?</dc:description>
+        <dc:description xml:lang="en">Are local allied health-care therapists involved in your Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQA6</dc:identifier>
-        <dc:title xml:lang="en">Are local allied health-care therapists involved in your  Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?</dc:title>
-        <rdfs:label xml:lang="en">Are local allied health-care therapists involved in your  Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?</rdfs:label>
+        <dc:title xml:lang="en">Are local allied health-care therapists involved in your Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?)</dc:title>
+        <rdfs:label xml:lang="en">Are local allied health-care therapists involved in your Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?)</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN8</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
     </owl:Class>
@@ -342,10 +342,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1-1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1"/>
-        <dc:description xml:lang="en">18-25 years</dc:description>
+        <dc:description xml:lang="en">18-24 years</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1-1</dc:identifier>
-        <dc:title xml:lang="en">18-25 years</dc:title>
-        <rdfs:label xml:lang="en">18-25 years</rdfs:label>
+        <dc:title xml:lang="en">18-24 years</dc:title>
+        <rdfs:label xml:lang="en">18-24 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -370,10 +370,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1-3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1"/>
-        <dc:description xml:lang="en">30-35 years</dc:description>
+        <dc:description xml:lang="en">31-35 years</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1-3</dc:identifier>
-        <dc:title xml:lang="en">30-35 years</dc:title>
-        <rdfs:label xml:lang="en">30-35 years</rdfs:label>
+        <dc:title xml:lang="en">31-35 years</dc:title>
+        <rdfs:label xml:lang="en">31-35 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -384,10 +384,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1-4">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1"/>
-        <dc:description xml:lang="en">&gt;35 years</dc:description>
+        <dc:description xml:lang="en">&gt;36 years</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN1-4</dc:identifier>
-        <dc:title xml:lang="en">&gt;35 years</dc:title>
-        <rdfs:label xml:lang="en">&gt;35 years</rdfs:label>
+        <dc:title xml:lang="en">&gt;36 years</dc:title>
+        <rdfs:label xml:lang="en">&gt;36 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -1546,10 +1546,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQC2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA3"/>
-        <dc:description xml:lang="en">If you are on steroids: how old were you when he started taking steroids?</dc:description>
+        <dc:description xml:lang="en">If you are on steroids: how old were you when you started taking steroids?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQC2</dc:identifier>
-        <dc:title xml:lang="en">If you are on steroids: how old were you when he started taking steroids?</dc:title>
-        <rdfs:label xml:lang="en">If you are on steroids: how old were you when he started taking steroids?</rdfs:label>
+        <dc:title xml:lang="en">If you are on steroids: how old were you when you started taking steroids?</dc:title>
+        <rdfs:label xml:lang="en">If you are on steroids: how old were you when you started taking steroids?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN11</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
@@ -2820,10 +2820,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQA6">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC1"/>
-        <dc:description xml:lang="en">Are local allied health-care therapists involved in your child’s Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?</dc:description>
+        <dc:description xml:lang="en">Are local allied health-care therapists involved in your child’s Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQA6</dc:identifier>
-        <dc:title xml:lang="en">Are local allied health-care therapists involved in your child’s Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?</dc:title>
-        <rdfs:label xml:lang="en">Are local allied health-care therapists involved in your child’s Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?</rdfs:label>
+        <dc:title xml:lang="en">Are local allied health-care therapists involved in your child’s Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?)</dc:title>
+        <rdfs:label xml:lang="en">Are local allied health-care therapists involved in your child’s Duchenne care? (e.g., local physiotherapist, speech and language therapist, occupational therapist?)</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN7</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</local:questionorder>
     </owl:Class>
@@ -4316,10 +4316,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQF2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC6"/>
-        <dc:description xml:lang="en">Does your child’s physical therapist perform tests for your the legs and arms (such as muscle strength, a walking test or a test for the arms)?</dc:description>
+        <dc:description xml:lang="en">Does your child’s physical therapist perform tests for your child&apos;s legs and arms (such as muscle strength, a walking test or a test for the arms)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQF2</dc:identifier>
-        <dc:title xml:lang="en">Does your child’s physical therapist perform tests for your the legs and arms (such as muscle strength, a walking test or a test for the arms)?</dc:title>
-        <rdfs:label xml:lang="en">Does your child’s physical therapist perform tests for your the legs and arms (such as muscle strength, a walking test or a test for the arms)?</rdfs:label>
+        <dc:title xml:lang="en">Does your child’s physical therapist perform tests for your child&apos;s legs and arms (such as muscle strength, a walking test or a test for the arms)?</dc:title>
+        <rdfs:label xml:lang="en">Does your child’s physical therapist perform tests for your child&apos;s legs and arms (such as muscle strength, a walking test or a test for the arms)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN3</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
@@ -4666,10 +4666,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQI3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAC9"/>
-        <dc:description xml:lang="en">If your child&apos;s long function is measured: what is the average frequency off assessing lung function?</dc:description>
+        <dc:description xml:lang="en">If your child&apos;s lung function is measured: what is the average frequency of assessing lung function?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQI3</dc:identifier>
-        <dc:title xml:lang="en">If your child&apos;s long function is measured: what is the average frequency off assessing lung function?</dc:title>
-        <rdfs:label xml:lang="en">If your child&apos;s long function is measured: what is the average frequency off assessing lung function?</rdfs:label>
+        <dc:title xml:lang="en">If your child&apos;s lung function is measured: what is the average frequency of assessing lung function?</dc:title>
+        <rdfs:label xml:lang="en">If your child&apos;s lung function is measured: what is the average frequency of assessing lung function?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FCQAN14</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
@@ -5173,20 +5173,6 @@
         <dc:title xml:lang="en">No</dc:title>
         <rdfs:label xml:lang="en">No</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
-        <local:widget>radio</local:widget>
-    </owl:Class>
-    
-
-
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1-3 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1-3">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1"/>
-        <dc:description xml:lang="en">Comment</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1-3</dc:identifier>
-        <dc:title xml:lang="en">Comment</dc:title>
-        <rdfs:label xml:lang="en">Comment</rdfs:label>
-        <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
     
@@ -7108,10 +7094,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQC1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA3"/>
-        <dc:description xml:lang="en">What is the average frequency of comprehensive rehabilitation assessments for children with DMD in your center (or in shared care)?</dc:description>
+        <dc:description xml:lang="en">What is the average frequency of comprehensive rehabilitation assessments for adults with DMD in your center (or in shared care)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQC1</dc:identifier>
-        <dc:title xml:lang="en">What is the average frequency of comprehensive rehabilitation assessments for children with DMD in your center (or in shared care)?</dc:title>
-        <rdfs:label xml:lang="en">What is the average frequency of comprehensive rehabilitation assessments for children with DMD in your center (or in shared care)?</rdfs:label>
+        <dc:title xml:lang="en">What is the average frequency of comprehensive rehabilitation assessments for adults with DMD in your center (or in shared care)?</dc:title>
+        <rdfs:label xml:lang="en">What is the average frequency of comprehensive rehabilitation assessments for adults with DMD in your center (or in shared care)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN8</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7290,10 +7276,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQF3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA6"/>
-        <dc:description xml:lang="en">Does your multidisciplinary team have access advice from a nephrologist?</dc:description>
+        <dc:description xml:lang="en">Does your multidisciplinary team have access to advice from a nephrologist?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQF3</dc:identifier>
-        <dc:title xml:lang="en">Does your multidisciplinary team have access advice from a nephrologist?</dc:title>
-        <rdfs:label xml:lang="en">Does your multidisciplinary team have access advice from a nephrologist?</rdfs:label>
+        <dc:title xml:lang="en">Does your multidisciplinary team have access to advice from a nephrologist?</dc:title>
+        <rdfs:label xml:lang="en">Does your multidisciplinary team have access to advice from a nephrologist?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
     </owl:Class>
@@ -7388,10 +7374,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG5">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA7"/>
-        <dc:description xml:lang="en">Do adult DMD patient have a respiratory care plan for respiratory illness and emergencies?</dc:description>
+        <dc:description xml:lang="en">Do adult DMD patients have a respiratory care plan for respiratory illness and emergencies?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG5</dc:identifier>
-        <dc:title xml:lang="en">Do adult DMD patient have a respiratory care plan for respiratory illness and emergencies?</dc:title>
-        <rdfs:label xml:lang="en">Do adult DMD patient have a respiratory care plan for respiratory illness and emergencies?</rdfs:label>
+        <dc:title xml:lang="en">Do adult DMD patients have a respiratory care plan for respiratory illness and emergencies?</dc:title>
+        <rdfs:label xml:lang="en">Do adult DMD patients have a respiratory care plan for respiratory illness and emergencies?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
@@ -7542,10 +7528,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH8">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA8"/>
-        <dc:description xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic) (or in shared care)?</dc:description>
+        <dc:description xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop diuretic) (or in shared care)?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQH8</dc:identifier>
-        <dc:title xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic) (or in shared care)?</dc:title>
-        <rdfs:label xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop of diuretic) (or in shared care)?</rdfs:label>
+        <dc:title xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop diuretic) (or in shared care)?</dc:title>
+        <rdfs:label xml:lang="en">Does your center regularly monitor renal function and fluid intake in adult DMD patients (especially during intercurrent illness and if adding a loop diuretic) (or in shared care)?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN6</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
@@ -7570,10 +7556,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQI1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA9"/>
-        <dc:description xml:lang="en">What is the frequency of performing lateral spine x-rays in adult DMD patients on long term steroid treatment to monitor for symptoms and signs of steroids induced osteoporosis?</dc:description>
+        <dc:description xml:lang="en">What is the frequency of performing lateral spine x-rays in adult DMD patients on long term steroid treatment to monitor for symptoms and signs of steroid induced osteoporosis?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQI1</dc:identifier>
-        <dc:title xml:lang="en">What is the frequency of performing lateral spine x-rays in adult DMD patients on long term steroid treatment to monitor for symptoms and signs of steroids induced osteoporosis?</dc:title>
-        <rdfs:label xml:lang="en">What is the frequency of performing lateral spine x-rays in adult DMD patients on long term steroid treatment to monitor for symptoms and signs of steroids induced osteoporosis?</rdfs:label>
+        <dc:title xml:lang="en">What is the frequency of performing lateral spine x-rays in adult DMD patients on long term steroid treatment to monitor for symptoms and signs of steroid induced osteoporosis?</dc:title>
+        <rdfs:label xml:lang="en">What is the frequency of performing lateral spine x-rays in adult DMD patients on long term steroid treatment to monitor for symptoms and signs of steroid induced osteoporosis?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN11</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7668,10 +7654,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA11"/>
-        <dc:description xml:lang="en">Which of the of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team)):</dc:description>
+        <dc:description xml:lang="en">Which of the following specialists are part of the multidisciplinary team in your center (or are available to the team)):</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQK1</dc:identifier>
-        <dc:title xml:lang="en">Which of the of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team)):</dc:title>
-        <rdfs:label xml:lang="en">Which of the of the follwing specialist are part of the multidisciplinary team in your center (or are available to the team):</rdfs:label>
+        <dc:title xml:lang="en">Which of the following specialists are part of the multidisciplinary team in your center (or are available to the team)):</dc:title>
+        <rdfs:label xml:lang="en">Which of the following specialists are part of the multidisciplinary team in your center (or are available to the team):</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN15</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:questionorder>
     </owl:Class>
@@ -7850,10 +7836,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQO2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA15"/>
-        <dc:description xml:lang="en">Is advice given to a local hospital by your center in case of an emergency setting and transfer to your (expert) center is not possible? (if you know that a patient is hospitalized in a local hospital) (PAQO2)</dc:description>
+        <dc:description xml:lang="en">Is advice given to a local hospital by your center in case of an emergency setting and transfer to your (expert) center is not possible? (if you know that a patient is hospitalized in a local hospital)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQO2</dc:identifier>
-        <dc:title xml:lang="en">Is advice given to a local hospital by your center in case of an emergency setting and transfer to your (expert) center is not possible? (if you know that a patient is hospitalized in a local hospital) (PAQO2)</dc:title>
-        <rdfs:label xml:lang="en">Is advice given to a local hospital by your center in case of an emergency setting and transfer to your (expert) center is not possible? (if you know that a patient is hospitalized in a local hospital) (PAQO2)</rdfs:label>
+        <dc:title xml:lang="en">Is advice given to a local hospital by your center in case of an emergency setting and transfer to your (expert) center is not possible? (if you know that a patient is hospitalized in a local hospital)</dc:title>
+        <rdfs:label xml:lang="en">Is advice given to a local hospital by your center in case of an emergency setting and transfer to your (expert) center is not possible? (if you know that a patient is hospitalized in a local hospital)</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
     </owl:Class>
@@ -7962,10 +7948,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA234">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center? NB Per option: in the applying center, in shared care, no)</dc:description>
+        <dc:description xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA234</dc:identifier>
-        <dc:title xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center? NB Per option: in the applying center, in shared care, no)</dc:title>
-        <rdfs:label xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center? NB Per option: in the applying center, in shared care, no)</rdfs:label>
+        <dc:title xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center?</dc:title>
+        <rdfs:label xml:lang="en">Are the following disciplines part of the  multidisciplinary care in children with DMD in your center?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN4</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
     </owl:Class>
@@ -8004,10 +7990,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA52">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Is there a dedicated person for children with DMD and their families to contact? (GENERAL INFO)</dc:description>
+        <dc:description xml:lang="en">Is there a dedicated person for children with DMD and their families to contact?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA52</dc:identifier>
-        <dc:title xml:lang="en">Is there a dedicated person for children with DMD and their families to contact? (GENERAL INFO)</dc:title>
-        <rdfs:label xml:lang="en">Is there a dedicated person for children with DMD and their families to contact? (GENERAL INFO)</rdfs:label>
+        <dc:title xml:lang="en">Is there a dedicated person for children with DMD and their families to contact?</dc:title>
+        <rdfs:label xml:lang="en">Is there a dedicated person for children with DMD and their families to contact?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</local:questionorder>
     </owl:Class>
@@ -10248,20 +10234,6 @@
     
 
 
-    <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD2 -->
-
-    <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD2">
-        <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC4"/>
-        <dc:description xml:lang="en">Patients are advised to use corticosteroids from the early ambulatory stage onwards (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:description>
-        <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD2</dc:identifier>
-        <dc:title xml:lang="en">Patients are advised to use corticosteroids from the early ambulatory stage onwards (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</dc:title>
-        <rdfs:label xml:lang="en">Patients are advised to use corticosteroids from the early ambulatory stage onwards (NOT A SCREENING CRITERIA, FOR ACCREDITATION)</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
-        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:questionorder>
-    </owl:Class>
-    
-
-
     <!-- https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD21 -->
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQD21">
@@ -11743,8 +11715,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRA6</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRA6</dc:identifier>
-        <dc:title xml:lang="en">Renal and blader manangement</dc:title>
-        <rdfs:label xml:lang="en">Renal and blader manangement</rdfs:label>
+        <dc:title xml:lang="en">Renal and bladder manangement</dc:title>
+        <rdfs:label xml:lang="en">Renal and bladder manangement</rdfs:label>
     </owl:Class>
     
 
@@ -11947,8 +11919,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRC4</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC4</dc:identifier>
-        <dc:title xml:lang="en">Neuromuscular mangement</dc:title>
-        <rdfs:label xml:lang="en">Neuromuscular mangement</rdfs:label>
+        <dc:title xml:lang="en">Neuromuscular management</dc:title>
+        <rdfs:label xml:lang="en">Neuromuscular management</rdfs:label>
     </owl:Class>
     
 
@@ -11971,8 +11943,8 @@
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC0"/>
         <dc:description xml:lang="en">Questionnaire section from the Accredited Duchenne Centers Evaluation: QPRC6</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC6</dc:identifier>
-        <dc:title xml:lang="en">Endocrine mangement</dc:title>
-        <rdfs:label xml:lang="en">Endocrine mangement</rdfs:label>
+        <dc:title xml:lang="en">Endocrine management</dc:title>
+        <rdfs:label xml:lang="en">Endocrine management</rdfs:label>
     </owl:Class>
     
 
