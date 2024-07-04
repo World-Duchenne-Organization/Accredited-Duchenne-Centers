@@ -8004,10 +8004,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA53">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <dc:description xml:lang="en">Do DMD patients have access to their own health data? (GENERAL INFO)</dc:description>
+        <dc:description xml:lang="en">Do DMD patients have access to their own health data?</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQA53</dc:identifier>
-        <dc:title xml:lang="en">Do DMD patients have access to their own health data? (GENERAL INFO)</dc:title>
-        <rdfs:label xml:lang="en">Do DMD patients have access to their own health data? (GENERAL INFO)</rdfs:label>
+        <dc:title xml:lang="en">Do DMD patients have access to their own health data?</dc:title>
+        <rdfs:label xml:lang="en">Do DMD patients have access to their own health data?</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</local:questionorder>
     </owl:Class>
