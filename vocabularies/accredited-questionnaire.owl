@@ -7364,7 +7364,7 @@
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG4</dc:identifier>
         <dc:title xml:lang="en">Does your center recommend adult DMD patient to initiate (or continue) lung volume recruitment (LVR) techniques with an LVR bag or Mechanical Insufflation-Exsufflation (MI-E) device if needed?</dc:title>
         <rdfs:label xml:lang="en">Does your center recommend adult DMD patient to initiate (or continue) lung volume recruitment (LVR) techniques with an LVR bag or Mechanical Insufflation-Exsufflation (MI-E) device if needed?</rdfs:label>
-        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQG4</local:answerblock>
+        <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#PAQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:questionorder>
     </owl:Class>
     
