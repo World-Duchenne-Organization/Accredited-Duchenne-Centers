@@ -886,10 +886,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3-2">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3"/>
-        <dc:description xml:lang="en">Parent*</dc:description>
+        <dc:description xml:lang="en">Parent</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3-2</dc:identifier>
-        <dc:title xml:lang="en">Parent*</dc:title>
-        <rdfs:label xml:lang="en">Parent*</rdfs:label>
+        <dc:title xml:lang="en">Parent</dc:title>
+        <rdfs:label xml:lang="en">Parent</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -900,10 +900,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3-3">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3"/>
-        <dc:description xml:lang="en">Caregiver*</dc:description>
+        <dc:description xml:lang="en">Caregiver</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3-3</dc:identifier>
-        <dc:title xml:lang="en">Caregiver*</dc:title>
-        <rdfs:label xml:lang="en">Caregiver*</rdfs:label>
+        <dc:title xml:lang="en">Caregiver</dc:title>
+        <rdfs:label xml:lang="en">Caregiver</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -2204,10 +2204,10 @@
 
     <owl:Class rdf:about="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQGI5">
         <rdfs:subClassOf rdf:resource="https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#QPAA19"/>
-        <dc:description xml:lang="en">Who completes the questionnaire?</dc:description>
+        <dc:description xml:lang="en">Who completes the questionnaire? (If you are filling this list out for your (foster) child please read ‘your child’ where we say you)</dc:description>
         <dc:identifier>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQGI5</dc:identifier>
-        <dc:title xml:lang="en">Who completes the questionnaire?</dc:title>
-        <rdfs:label xml:lang="en">Who completes the questionnaire?</rdfs:label>
+        <dc:title xml:lang="en">Who completes the questionnaire? (If you are filling this list out for your (foster) child please read ‘your child’ where we say you)</dc:title>
+        <rdfs:label xml:lang="en">Who completes the questionnaire? (If you are filling this list out for your (foster) child please read ‘your child’ where we say you)</rdfs:label>
         <local:answerblock>https://accredited.worldduchenne.org/vocabularies/accredited-questionnaire.owl#FAQAN3</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:questionorder>
     </owl:Class>
