@@ -3010,10 +3010,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-1">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11"/>
-        <dc:description xml:lang="en">4-6 year</dc:description>
+        <dc:description xml:lang="en">4-5 years</dc:description>
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-1</dc:identifier>
-        <dc:title xml:lang="en">4-6 year</dc:title>
-        <rdfs:label xml:lang="en">4-6 year</rdfs:label>
+        <dc:title xml:lang="en">4-5 years</dc:title>
+        <rdfs:label xml:lang="en">4-5 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -3024,10 +3024,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-2">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11"/>
-        <dc:description xml:lang="en">6-8 year</dc:description>
+        <dc:description xml:lang="en">6-7 years</dc:description>
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-2</dc:identifier>
-        <dc:title xml:lang="en">6-8 year</dc:title>
-        <rdfs:label xml:lang="en">6-8 year</rdfs:label>
+        <dc:title xml:lang="en">6-7 years</dc:title>
+        <rdfs:label xml:lang="en">6-7 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -3038,10 +3038,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-3">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11"/>
-        <dc:description xml:lang="en">8-10 year</dc:description>
+        <dc:description xml:lang="en">8-9 years</dc:description>
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-3</dc:identifier>
-        <dc:title xml:lang="en">8-10 year</dc:title>
-        <rdfs:label xml:lang="en">8-10 year</rdfs:label>
+        <dc:title xml:lang="en">8-9 years</dc:title>
+        <rdfs:label xml:lang="en">8-9 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -3052,10 +3052,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-4">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11"/>
-        <dc:description xml:lang="en">&gt;10 yes</dc:description>
+        <dc:description xml:lang="en">&gt;10 years</dc:description>
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-4</dc:identifier>
-        <dc:title xml:lang="en">&gt;10 yes</dc:title>
-        <rdfs:label xml:lang="en">&gt;10 yes</rdfs:label>
+        <dc:title xml:lang="en">&gt;10 years</dc:title>
+        <rdfs:label xml:lang="en">&gt;10 years</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
@@ -3066,10 +3066,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-5">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11"/>
-        <dc:description xml:lang="en">-Different</dc:description>
+        <dc:description xml:lang="en">- Different</dc:description>
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN11-5</dc:identifier>
-        <dc:title xml:lang="en">-Different</dc:title>
-        <rdfs:label xml:lang="en">-Different</rdfs:label>
+        <dc:title xml:lang="en">- Different</dc:title>
+        <rdfs:label xml:lang="en">- Different</rdfs:label>
         <local:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</local:answerorder>
         <local:widget>radio</local:widget>
     </owl:Class>
