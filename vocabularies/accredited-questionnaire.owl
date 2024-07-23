@@ -17,8 +17,9 @@
      xmlns:local="urn:local:"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:resource="http://semanticscience.org/resource/">
-    <owl:Ontology rdf:about="http://semanticscience.org/ontology/sio/v1.51/sio-release.owl">
+    <owl:Ontology rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl">
         <owl:imports rdf:resource="http://semanticscience.org/ontology/sio/v1.51/sio-release.owl"/>
         <dc:creator>Elizabeth Vroom</dc:creator>
         <dc:creator>Imelda de Groot</dc:creator>
@@ -4046,14 +4047,28 @@
     
 
 
+    <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQB8 -->
+
+    <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQB8">
+        <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#QPAC2"/>
+        <dc:description xml:lang="en">What are you satisfied with (in the collaboration between your child&apos;s hospital and care closer to home)?</dc:description>
+        <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQB5</dc:identifier>
+        <dc:title xml:lang="en">What are you satisfied with (in the collaboration between your child&apos;s hospital and care closer to home)?</dc:title>
+        <rdfs:label xml:lang="en">What are you satisfied with (in the collaboration between your child&apos;s hospital and care closer to home)?</rdfs:label>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
+        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</local:questionorder>
+    </owl:Class>
+    
+
+
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQB9 -->
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQB9">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#QPAC2"/>
-        <dc:description xml:lang="en">What could be improved (in the collaboration between the clinicians within your child&apos;s hospital)?</dc:description>
+        <dc:description xml:lang="en">What could be improved (in the collaboration between your child&apos;s hospital and care closer to home)?</dc:description>
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQB9</dc:identifier>
-        <dc:title xml:lang="en">What could be improved (in the collaboration between the clinicians within your child&apos;s hospital)?</dc:title>
-        <rdfs:label xml:lang="en">What could be improved (in the collaboration between the clinicians within your child&apos;s hospital)?</rdfs:label>
+        <dc:title xml:lang="en">What could be improved (in the collaboration between your child&apos;s hospital and care closer to home)?</dc:title>
+        <rdfs:label xml:lang="en">What could be improved (in the collaboration between your child&apos;s hospital and care closer to home)?</rdfs:label>
         <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#OPEN</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</local:questionorder>
     </owl:Class>
@@ -10923,6 +10938,19 @@
     
 
 
+    <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQP1 -->
+
+    <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQP1">
+        <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#QPAC16"/>
+        <dc:description xml:lang="en">Were you requested to fill out a questionnaire about your child’s Quality of life (how satisfied your child is with is his life)?</dc:description>
+        <dc:title xml:lang="en">Were you requested to fill out a questionnaire about your child’s Quality of life (how satisfied your child is with is his life)?</dc:title>
+        <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your child’s Quality of life (how satisfied your child is with is his life)?</rdfs:label>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN3</local:answerblock>
+        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</local:questionorder>
+    </owl:Class>
+    
+
+
     <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQP11 -->
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQP11">
@@ -10933,6 +10961,19 @@
         <rdfs:label xml:lang="en">Does your center recommend an emergency card for DMD patients?</rdfs:label>
         <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</local:questionorder>
+    </owl:Class>
+    
+
+
+    <!-- https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQP2 -->
+
+    <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQP2">
+        <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#QPAC16"/>
+        <dc:description>Were you requested to fill out a questionnaire about your child’s social participation?</dc:description>
+        <dc:title>Were you requested to fill out a questionnaire about your child’s social participation?</dc:title>
+        <rdfs:label xml:lang="en">Were you requested to fill out a questionnaire about your child’s social participation?</rdfs:label>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#FCQAN3</local:answerblock>
+        <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</local:questionorder>
     </owl:Class>
     
 
