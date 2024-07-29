@@ -10339,7 +10339,7 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQL341</dc:identifier>
         <dc:title xml:lang="en">Does your center provide ongoing mental support for children?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide ongoing mental support for children?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</local:questionorder>
     </owl:Class>
     
@@ -10353,7 +10353,7 @@
         <dc:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQL342</dc:identifier>
         <dc:title xml:lang="en">Does your center provide ongoing mental support for families?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide ongoing mental support for families?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</local:questionorder>
     </owl:Class>
     
@@ -10366,7 +10366,7 @@
         <dc:description xml:lang="en">Does your center provide neuropsychological evaluation for learning problems?</dc:description>
         <dc:title xml:lang="en">Does your center provide neuropsychological evaluation for learning problems?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide neuropsychological evaluation for learning problems?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</local:questionorder>
     </owl:Class>
     
@@ -10379,7 +10379,7 @@
         <dc:description xml:lang="en">Does your center provide neuropsychological evaluation for behavioral problems?</dc:description>
         <dc:title xml:lang="en">Does your center provide neuropsychological evaluation for behavioral problems?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide neuropsychological evaluation for behavioral problems?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</local:questionorder>
     </owl:Class>
     
@@ -10392,7 +10392,7 @@
         <dc:description xml:lang="en">Does your center provide neuropsychological evaluation for emotional problems?</dc:description>
         <dc:title xml:lang="en">Does your center provide neuropsychological evaluation for emotional problems?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide neuropsychological evaluation for emotional problems?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">12</local:questionorder>
     </owl:Class>
     
@@ -10405,7 +10405,7 @@
         <dc:description xml:lang="en">Does your center provide neuropsychological interventions for learning problems?</dc:description>
         <dc:title xml:lang="en">Does your center provide neuropsychological interventions for learning problems?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide neuropsychological interventions for learning problems?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</local:questionorder>
     </owl:Class>
     
@@ -10418,7 +10418,7 @@
         <dc:description xml:lang="en">Does your center provide neuropsychological interventions for behavioral problems?</dc:description>
         <dc:title xml:lang="en">Does your center provide neuropsychological interventions for behavioral problems?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide neuropsychological interventions for behavioral problems?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</local:questionorder>
     </owl:Class>
     
@@ -10431,7 +10431,7 @@
         <dc:description xml:lang="en">Does your center provide neuropsychological interventions for emotional problems?</dc:description>
         <dc:title xml:lang="en">Does your center provide neuropsychological interventions for emotional problems?</dc:title>
         <rdfs:label xml:lang="en">Does your center provide neuropsychological interventions for emotional problems?</rdfs:label>
-        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN16</local:answerblock>
+        <local:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</local:answerblock>
         <local:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</local:questionorder>
     </owl:Class>
     
