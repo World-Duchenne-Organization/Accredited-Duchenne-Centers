@@ -6510,10 +6510,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAQAN14-3">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAQAN14"/>
-        <ns7:description xml:lang="en">Other</ns7:description>
+        <ns7:description xml:lang="en">Other  (specify in the comment box)</ns7:description>
         <ns7:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PAQAN14-3</ns7:identifier>
-        <ns7:title xml:lang="en">Other</ns7:title>
-        <rdfs:label xml:lang="en">Other</rdfs:label>
+        <ns7:title xml:lang="en">Other  (specify in the comment box)</ns7:title>
+        <rdfs:label xml:lang="en">Other  (specify in the comment box)</rdfs:label>
         <ns5:answerorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns5:answerorder>
         <ns5:widget>radio</ns5:widget>
     </owl:Class>
@@ -8630,10 +8630,10 @@
 
     <owl:Class rdf:about="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQA41">
         <rdfs:subClassOf rdf:resource="https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#QPRC1"/>
-        <ns7:description xml:lang="en">Leads multidisciplinary pediatric DMD care to an integrated care plan in your center?</ns7:description>
+        <ns7:description xml:lang="en">Is an integrated care plan part of your multidiciplinary care?</ns7:description>
         <ns7:identifier>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQA41</ns7:identifier>
-        <ns7:title xml:lang="en">Leads multidisciplinary pediatric DMD care to an integrated care plan in your center?</ns7:title>
-        <rdfs:label xml:lang="en">Leads multidisciplinary pediatric DMD care to an integrated care plan in your center?</rdfs:label>
+        <ns7:title xml:lang="en">Is an integrated care plan part of your multidiciplinary care?</ns7:title>
+        <rdfs:label xml:lang="en">Is an integrated care plan part of your multidiciplinary care?</rdfs:label>
         <ns5:answerblock>https://world-duchenne-organization.github.io/Accredited-Duchenne-Centers/vocabularies/accredited-questionnaire.owl#PCQAN1</ns5:answerblock>
         <ns5:questionorder rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns5:questionorder>
     </owl:Class>
